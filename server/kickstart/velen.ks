@@ -37,13 +37,13 @@ network --onboot=yes --bootproto=dhcp --hostname=sina-laptop
 keyboard us
 
 # Configure Language During Installation
-lang en_AU
+lang en_US.UTF-8
 
 # Services to enable/disable
 services --disabled=mlocate-updatedb,mlocate-updatedb.timer,geoclue,avahi-daemon
 
 # Configure Time Zone
-timezone US/Sydney
+timezone America/New_York --utc
 
 # Configure X Window System
 xconfig --startxonboot
@@ -141,7 +141,7 @@ exec < /dev/tty3 > /dev/tty3
 chvt 3
 # Docker Installation
 echo "################################"
-echo "# Running Post Configuration   #"
+echo "# Installing docker            #"
 echo "################################"
 echo "exclude=kernel*" >> /etc/yum.conf
 # update the system
