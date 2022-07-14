@@ -11,6 +11,9 @@ pipeline {
                 not{
                     changeset "content/src/hak/**/**/**"
                 }
+                expression{
+                    return params.BUILD_ALL == 'No'
+                }
             }
             steps{
                 echo "Nothing to do. Exiting."
