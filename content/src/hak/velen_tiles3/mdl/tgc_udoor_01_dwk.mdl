@@ -1,0 +1,12 @@
+#MAXMODEL ASCII
+# model: tgc_UDoor_01_DWK 
+filedependancy drawbridge.max
+newmodel tgc_UDoor_01_DWK 
+setsupermodel tgc_UDoor_01_DWK NULL
+classification Door
+#MAXGEOM  ASCII
+beginmodelgeom tgc_UDoor_01_DWK 
+endmodelgeom tgc_UDoor_01_DWK 
+
+donemodel tgc_UDoor_01_DWK 
+

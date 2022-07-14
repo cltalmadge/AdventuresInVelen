@@ -1,0 +1,560 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "": {
+          "__struct_id": 0,
+          "type": "struct",
+          "value": {
+            "__struct_id": 0,
+            "ID": {
+              "type": "byte",
+              "value": 3
+            },
+            "LIST": {
+              "type": "list",
+              "value": [
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Sleeping Quarters Bunks"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_s01_02"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Storage"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_s01_03"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Generic"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_s01_04"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Stern"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_s01_01"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Bow"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_s01_05"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Bow - No Door"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_s01_06"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Stairs - Up"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_s01_07"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Diving Bell - Small"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_b01_05"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Sleeping Quarters B"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_s01_08"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Gunnery Room"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_s01_10"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "The Brig"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_s01_11"
+                  }
+                },
+                {
+                  "__struct_id": 0,
+                  "NAME": {
+                    "type": "cexostring",
+                    "value": "Reserved"
+                  },
+                  "RESREF": {
+                    "type": "resref",
+                    "value": "nex01_z01_01"
+                  }
+                }
+              ]
+            },
+            "STRREF": {
+              "type": "dword",
+              "value": 63261
+            }
+          }
+        },
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sleeping Quarters"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Storage"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Deck"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stern"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bow"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bow - No Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs - Up"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Diving Bell - Small"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_b01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sleeping Quarters B"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gunnery - Gunports Closed"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_20"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "The Brig"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Reserved"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_z01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gunnery - Gunports Open Left"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gunnery - Gunports Open Right"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_22"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs - Down"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s01_07b"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Captains Cabin"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Diving Bell - Large"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_b01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stern - Wide"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Deck - Wide"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bow - Wide"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Storage - Wide"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sleeping Quarters Bunks - Wide"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stern Walled - Wide"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Deck Walled A - Wide"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_13"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Deck Walled B - Wide"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Deck Walled C - Wide"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_17"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gunnery - Wide Closed"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_20"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs - Wide Down"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_26"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs - Wide Up"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_28"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gunnery - Wide Open"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "nex01_s03_22"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}
