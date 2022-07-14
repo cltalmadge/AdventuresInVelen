@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Pack Velen Top') {
             when {
-                changeset "content/src/hak/velen_top/**"
+                changeset "content/src/hak/velen_top/**/**"
             }
             steps {
                 discordSend description: "Packing Velen Top", footer: "Velen top hak", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
