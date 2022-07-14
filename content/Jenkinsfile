@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        CHANGES = 'false'
+    }
+    
     stages {
         stage('Before all'){
             steps{
@@ -23,10 +27,12 @@ pipeline {
     }
     post {
         always {
-            discordSend description: "", footer: "Build results for Velen content", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Build Complete", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+            if(CHANGES == 'true') {
+                discordSend description: "", footer: "Build results for Velen content", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Build Complete", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+            }
         }
         success {
-            echo 'Build success'
+            echo 'Build complete'
         }
     }
 }
