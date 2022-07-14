@@ -36,6 +36,209 @@ pipeline {
                 }
             }
         }
+        stage('Pack Velen Tiles8') {
+            when {
+                changeset "content/src/hak/velen_tiles8/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen Tiles8", footer: "Velen tiles8", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles8"
+                }
+            }
+        }
+        stage('Pack Velen Tiles7') {
+            when {
+                changeset "content/src/hak/velen_tiles7/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen Tiles7", footer: "Velen tiles7", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles7"
+                }
+            }
+        }
+        stage('Pack Velen Tiles6') {
+            when {
+                changeset "content/src/hak/velen_tiles6/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen Tiles6", footer: "Velen tiles6", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles6"
+                }
+            }
+        }
+        stage('Pack Velen Tiles5') {
+            when {
+                changeset "content/src/hak/velen_tiles5/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen Tiles5", footer: "Velen tiles5", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles5"
+                }
+            }
+        }
+        stage('Pack Velen Tiles4') {
+            when {
+                changeset "content/src/hak/velen_tiles4/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen Tiles4", footer: "Velen tiles4", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles4"
+                }
+            }
+        }
+        stage('Pack Velen Tiles3') {
+            when {
+                changeset "content/src/hak/velen_tiles3/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen Tiles3", footer: "Velen tiles3", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles3"
+                }
+            }
+        }
+        stage('Pack Velen Tiles2') {
+            when {
+                changeset "content/src/hak/velen_tiles2/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen Tiles2", footer: "Velen tiles2", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles2"
+                }
+            }
+        }
+        stage('Pack Velen Tiles1') {
+            when {
+                changeset "content/src/hak/velen_tiles1/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen Tiles1", footer: "Velen tiles1", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles1"
+                }
+            }
+        }
+        stage('Pack Velen Robe') {
+            when {
+                changeset "content/src/hak/velen_robe/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen robe", footer: "Velen robe", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_robe"
+                }
+            }
+        }
+        stage('Pack Velen PLCs') {
+            when {
+                changeset "content/src/hak/velen_plcs/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen Plcs", footer: "Velen Plc", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_plcs"
+                }
+            }
+        }
+        stage('Pack Velen Cont') {
+            when {
+                changeset "content/src/hak/velen_cont/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen cont", footer: "Velen Cont", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_cont"
+                }
+            }
+        }
+        stage('Pack Velen CCOH') {
+            when {
+                changeset "content/src/hak/velen_ccoh/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen ccoh", footer: "Velen ccoh", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_ccoh"
+                }
+            }
+        }
+        stage('Pack Velen anim') {
+            when {
+                changeset "content/src/hak/velen_anim/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen anim", footer: "Velen anim", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_anim"
+                }
+            }
+        }
+        stage('Pack Velen tlk') {
+            when {
+                changeset "content/src/tlk/velen/tlk/**"
+            }
+            steps {
+                discordSend description: "Packing Velen tlk", footer: "Velen TLK", link: env.BUILD_URL, title: "Packaging TLK", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh tlk tlk"
+                }
+            }
+        }
+        stage('Pack everything') {
+            when {
+                expression {
+                    return params.BUILD_ALL == 'Yes'
+                }
+            }
+            steps {
+                discordSend description: "Packing Velen tlk", footer: "Velen TLK", link: env.BUILD_URL, title: "Packaging TLK", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "chmod +x content/linux_pack_haks.sh"
+                    sh "dos2unix content/linux_pack_haks.sh"
+                    sh "chmod +x content/bundle-all.sh"
+                    sh "dos2unix content/bundle-all.sh"
+                    sh "./content/pack.sh tlk tlk"
+                    sh "./content/linux_pack_haks.sh"
+                    sh "./content/bundle-all.sh"
+                }
+            }
+        }
     }
     post {
         always {
