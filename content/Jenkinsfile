@@ -3,12 +3,7 @@
 
     stages {
         stage('Pack Velen Top') {
-            when {
-                changeset "src/hak/velen_top/*"
-            }
-            steps {
-                echo 'Packing Velen top'
-            }
+            discordSend description: "Build test.", footer: "Build results for Velen content", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Velen content results", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
         }
     }
     post {
