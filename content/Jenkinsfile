@@ -1,7 +1,22 @@
-﻿// Before: Detect changes
-// Step 1: Pack mod
-// Step 2: Check if live or test
-// Step 3: Copy to live hak/tlk folder
-// Step 4: Verify that server launches.
-// if launch, success
-// if crash, fail build and print name of last committer.
+﻿pipeline {
+    agent any
+
+    stages {
+        stage('Pack Velen Top') {
+            when {
+                changeset "src/hak/velen_top/*"
+            }
+            steps {
+                echo 'Packing Velen top'
+            }
+        }
+    }
+    post {
+        always {
+            discordSend description: "Build completed.", footer: "Build results for Velen content", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Velen content results", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+        }
+        success {
+            echo 'Build success'
+        }
+    }
+}
