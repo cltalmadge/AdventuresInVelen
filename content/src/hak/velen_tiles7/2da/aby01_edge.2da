@@ -1,0 +1,21 @@
+2DA V2.0
+
+       Corner1     Edge       Corner2     Height     Model            
+0      Floor       ****       Lava        0          aby01_Z05_01     
+1      Lava        ****       Lava        0          aby01_Z02_01     
+2      Floor+      ****       Lava        0          aby01_Z07_01     
+3      Floor       ****       Floor       0          aby01_Z01_01     
+4      Floor+      ****       Floor       0          aby01_Z06_01     
+5      Floor+      ****       Floor+      1          aby01_Z01_01     
+6      Floor       Road       Floor       0          aby01_Z12_01     
+7      Floor       Stream     Floor       0          aby01_Z15_01     
+8      Floor       Wall1      Floor       0          aby01_Z13_01     
+9      Floor       Wall2      Floor       0          aby01_Z14_01     
+10     Lava        Road       Lava        0          aby01_Z16_01     
+11     Lava        ****       ****        0          aby01_Z02_01     
+12     Floor       ****       ****        0          aby01_Z01_01     
+13     Floor+      ****       ****        1          aby01_Z01_01     
+14     Floor+      Road       Floor+      1          aby01_Z12_01     
+15     Floor+      Stream     Floor+      1          aby01_Z15_01     
+16     Floor+      Wall1      Floor+      1          aby01_Z13_01     
+17     Floor+      Wall2      Floor+      1          aby01_Z14_01     

@@ -1,0 +1,46 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sun Feb 07 23:30:26 2016
+#MAXWALKMESH  ASCII
+beginwalkmeshgeom dls01_d16_01
+node aabb cm058
+  parent dls01_d16_01
+  position 0 0 0
+  diffuse 0.8 0.8 0.8
+  ambient 0.2 0.2 0.2
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  beaming 0
+  render 0
+  transparencyhint 0
+  bitmap NULL
+  rotatetexture 0
+  orientation 0 0 0 0
+  verts 8
+    -5 0 4
+    0 5 4
+    0 5 5
+    -5 0 5
+    5 -5 4
+    5 5 4
+    -5 -5 4
+    -5 5 5
+  faces 6
+    0 1 2 1 0 0 0 7
+    0 2 3 1 0 0 0 7
+    1 0 4 2 0 0 0 2
+    1 4 5 2 0 0 0 2
+    0 6 4 2 0 0 0 2
+    3 2 7 0 0 0 0 3
+  aabb     -5 -5 4 5 5 5 -1
+    -5 -5 4 5 5 5 -1
+    -5 0 4 0 5 5 -1
+    -5 0 4 0 5 5 1
+    -5 0 5 0 5 5 5
+    -5 -5 4 5 5 5 -1
+    -5 -5 4 5 0 4 4
+    -5 0 4 0 5 5 0
+    -5 -5 4 5 5 4 -1
+    -5 -5 4 5 5 4 2
+    0 -5 4 5 5 4 3
+endnode
+endwalkmeshgeom dls01_d16_01
