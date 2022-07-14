@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        stage('Echo working directory'){
+            steps{
+                sh 'echo hello'
+                echo '${env.WORKSPACE}'
+            }
+        }
         stage('Pack Velen Top') {
             when {
                 changeset "src/hak/velen_top/*"
