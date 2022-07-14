@@ -1,0 +1,1233 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x04_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63307
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_i01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63380
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_f10_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63682
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_f09_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63688
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h01_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63700
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_f07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63699
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h07_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63678
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h06_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63719
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ice_Cellar"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_b03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fisherman_Net"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_b02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House_Round_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_b05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House_Round_1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_b06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Watchtower_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_b04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House_Tower_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_b07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House_Tower_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_b08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Market_Stall "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_d02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Crypt"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_d03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cabin_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_f01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cabin_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_f02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Watchtower_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_i03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountain_Cave"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m31_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longhouse_Door_ Gable"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m91_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longhouse_Door_Side"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m91_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bonfire"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m94_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Pyre"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m94_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Burned_Building_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Burned_Building_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall_Gate"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_p07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_r01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_r02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fort_Entrance"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_y11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fort_Stairs_Down"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_y12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Trees"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_f05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Snow_Drift_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_f04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Snow_Drift_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_f03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Graves_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Graves_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h08_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Graves_3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h08_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Graves_4"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h08_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Graves_5"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h08_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Shrine_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mausoleum_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mausoleum_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_i02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Warzone_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Garden_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Warzone_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree_Hollow"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_h02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Shrine_1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_f06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Garden_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_f08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Burned_Building_3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x17_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Burned_Building_4"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x18_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longhouse_Door_Upper"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m91_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Palisade_Gate"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m95_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Palisade_Breach"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m95_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Palisade_Ramp"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m95_07"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stables_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_d05_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Market_Stall_2x2 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_b01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hay_Barn_2x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_b09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Chapel_3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_b10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mausoleum_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_d01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Barrow_Entry_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_d04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Meeting_Hall_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_i04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longboat_Water_1_2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m81_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longboat_Water_2_2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m81_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longboat_Shore_1_2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m81_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longboat_Shore_2_2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m81_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longboat_Shore_3_2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m81_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longboat_Shore_4_2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m81_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stave_Church_2x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_m93_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Burned_Building _1_ 2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Destroyed_Building_1_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x14_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Burned_Building_2_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x15_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship_Floating_1_2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_v19_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship_Docked_1_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_v20_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship_Docked_2_4x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship_Docked_3_2x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship_Floating_2_4x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship_Floating_3_3x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ale_House_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_r06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Barn_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_r09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Blacksmith_2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_r12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Inn_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_r15_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fort_Ramp"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_y08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fort_Gate"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_y09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Field_1_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_d06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Barracks_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_d07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_d08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Field_2_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_d09_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Field_3_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_d10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Destroyed_Building_2_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Burned_Building_3_2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x19_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Burned_Building_3_2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bns_x20_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Snow"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 3210
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Water"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5631
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fort"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Fort"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longhouse"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Longhouse"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Forest"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ice"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Ice"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Mountain"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Road"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63641
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Wall"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63301
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Dock"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63303
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountain_Path"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Mountainpath"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Longhouse_Roof"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Longhouse_Roof"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63292
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Palisade"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Palisade"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}
