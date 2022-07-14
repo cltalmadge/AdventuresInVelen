@@ -6,10 +6,20 @@ pipeline {
     }
     
     stages {
+        stage('Check for changes'){
+            when{
+                not{
+                    changeset "content/src/hak/**/**/**"
+                }
+            }
+            steps{
+                echo "Nothing to do. Exiting."
+                exit 1
+            }
+        }
         stage('Before all'){
             steps{
                 discordSend description: "Build for Velen content kicked off", footer: "Build start", link: env.BUILD_URL, title: "Build Kickoff", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
-                echo env.WORKSPACE
             }
         }
         stage('Pack Velen Top') {
@@ -20,18 +30,17 @@ pipeline {
                 discordSend description: "Packing Velen Top", footer: "Velen top hak", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
                 echo 'Packing Velen top'
                  script {
-                    sh "docker run --rm -t -v \$(pwd):/nasher -v \$(pwd):\"/root/.local/share/Neverwinter Nights/hak/\" urothis/nwnee-community-images:nasher-8193.34 pack velen_top --clean --verbose --yes"
+                    sh "pushd content; docker run --rm -t -v \$(pwd):/nasher -v \$(pwd):\"/root/.local/share/Neverwinter Nights/hak/\" urothis/nwnee-community-images:nasher-8193.34 pack velen_top --clean --verbose --yes; popd;"
                 }
             }
         }
     }
     post {
         always {
-            if(CHANGES == 'true') {
-                discordSend description: "", footer: "Build results for Velen content", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Build Complete", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
-            }
+            echo 'Finalizing results.' 
         }
         success {
+            discordSend description: "", footer: "Successful build results for Velen content", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Build Complete", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
             echo 'Build complete'
         }
     }
