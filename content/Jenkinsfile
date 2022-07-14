@@ -30,7 +30,9 @@ pipeline {
                 discordSend description: "Packing Velen Top", footer: "Velen top hak", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
                 echo 'Packing Velen top'
                  script {
-                    sh "pushd content; docker run --rm -t -v \$(pwd):/nasher -v \$(pwd):\"/root/.local/share/Neverwinter Nights/hak/\" urothis/nwnee-community-images:nasher-8193.34 pack velen_top --clean --verbose --yes; popd;"
+                    sh "docker run --rm -t -v \$(pwd):/nasher -v \$(pwd):\"/root/.local/share/Neverwinter Nights/hak/\" urothis/nwnee-community-images:nasher-8193.34 pack velen_top --clean --verbose --yes"
+                    sh "chmod +x content/pack.sh"
+                    sh "./content/pack.sh hak velen_top"
                 }
             }
         }
