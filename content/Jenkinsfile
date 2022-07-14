@@ -2,9 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Echo working directory'){
+        stage('Before all'){
             steps{
-                echo ${env.WORKSPACE}
+                discordSend description: "Build for Amia content kicked off", footer: "Build start", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Build Kickoff", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                echo env.WORKSPACE
             }
         }
         stage('Pack Velen Top') {
