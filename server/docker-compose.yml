@@ -4,7 +4,7 @@ services:
     hostname: velen-live
     stop_signal: SIGINT
     image: nwndotnet/anvil:8193.34.7
-    env_file: /home/amia/amia_server/config/nwserver.env
+    env_file:  ${VELEN_SERVER_PATH}/env/nwserver.env
     stdin_open: true
     tty: true
     volumes:
