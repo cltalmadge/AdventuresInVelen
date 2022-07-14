@@ -1,0 +1,15 @@
+﻿version: '3.4'
+services:
+  nwserver:
+    hostname: velen-live
+    stop_signal: SIGINT
+    image: nwndotnet/anvil:8193.34.7
+    env_file: /home/amia/amia_server/config/nwserver.env
+    stdin_open: true
+    tty: true
+    volumes:
+      - ${VELEN_SERVER_PATH}/logs:/nwn/run/logs.0
+      - ${VELEN_SERVER_PATH}/live-server/:/nwn/home
+    restart: unless-stopped
+    ports:
+      - "5123:5123/udp"

@@ -1,0 +1,7 @@
+﻿// Before: Detect changes
+// Step 1: Pack mod
+// Step 2: Check if live or test
+// Step 3: Copy to live hak/tlk folder
+// Step 4: Verify that server launches.
+// if launch, success
+// if crash, fail build and print name of last committer.

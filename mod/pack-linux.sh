@@ -1,0 +1,1 @@
+﻿docker run --rm -t -v $(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes

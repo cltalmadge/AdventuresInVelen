@@ -1,0 +1,10 @@
+﻿// Before all: 
+// Step 1: Detect directory changes.
+// Step 2: 
+// Test deployment CI steps:
+// Step 1: Run ./deploy.sh test
+// Live deployment CI steps:
+// Before:
+// Step 1: Backup servervault directory and publish as artifact
+// Step 2: Backup database and publish as artifact
+// Step 4: run ./deploy.sh live 
