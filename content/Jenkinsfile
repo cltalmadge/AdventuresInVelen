@@ -228,16 +228,16 @@ pipeline {
                 }
             }
             steps {
-                discordSend description: "Packing Velen tlk", footer: "Velen TLK", link: env.BUILD_URL, title: "Packaging TLK", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing everything", footer: "Packing everything", link: env.BUILD_URL, title: "Packaging All Content", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
-                    sh "chmod +x content/linux_pack_haks.sh"
-                    sh "dos2unix content/linux_pack_haks.sh"
+                    sh "chmod +x content/linux-pack-haks.sh"
+                    sh "dos2unix content/linux-pack-haks.sh"
                     sh "chmod +x content/bundle-all.sh"
                     sh "dos2unix content/bundle-all.sh"
                     sh "./content/pack.sh tlk tlk"
-                    sh "./content/linux_pack_haks.sh"
+                    sh "./content/linux-pack-haks.sh"
                     sh "./content/bundle-all.sh"
                 }
             }
