@@ -1,0 +1,84 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "DELETE_ME": {
+          "type": "cexostring",
+          "value": "- Terrain"
+        },
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Grass"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "grass"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63292
+              }
+            }
+          ]
+        }
+      },
+      {
+        "__struct_id": 0,
+        "DELETE_ME": {
+          "type": "cexostring",
+          "value": "Buildings"
+        },
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "isc03_a04_21"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

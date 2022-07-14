@@ -1,0 +1,15 @@
+2DA V2.0
+
+       Corner1     Edge      Corner2     Height     Model            
+0      Grass       ****      Grass       0          TBR01_BOG_Z6     
+1      Grass+      ****      Grass       0          TBR01_BOG_Z5     
+2      Grass+      ****      Grass+      1          TBR01_BOG_Z6     
+3      Bog         ****      ****        0          TBR01_BOG_Z2     
+4      Grass       ****      ****        0          TBR01_BOG_Z6     
+5      Grass+      ****      ****        1          TBR01_BOG_Z6     
+6      Grass+      ****      Bog         0          TBR01_BOG_Z4  
+7      Grass       Wall      Grass       0          TBR01_BOG_ZW 
+8      Bog         ****      Grass       0          TBR01_BOG_Z1
+9      Bog         ****      Bog         0          TBR01_BOG_Z2 
+10     Bog         Wall      Bog         0          TBR01_BOG_Z3 
+11     Grass+      Slope     Grass       0          TBR01_BOG_ZH       

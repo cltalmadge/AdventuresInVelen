@@ -1,0 +1,544 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tms01_c03_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63636
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Swamp Hut"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_26"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Swamp Hut"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_27"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Campsite 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ramp"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_R1"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Shrine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_S1"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_53"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 3
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cave Entrance 1 (dry)"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "TBR01_BOG_C1"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cave Entrance 3 (dry)"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "TBR01_BOG_C2"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cave Entrance 2 (dry)"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "TBR01_BOG_C3"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Cave Entrance 2 (flooded)"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "TBR01_BOG_CV"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63677
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Campsite 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_55"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hangman's Tree"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_SK"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_T1"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stargate Portal"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_SG"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Flooded Pass"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_28"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 4
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wall Breach"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "TBR01_BOG_WL"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wall Gate"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "TBR01_BOG_WJ"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Wall Gate - Broken"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "TBR01_BOG_WI"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63301
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Menhir"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_MH"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_G6"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 5
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Graves 1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "ttr01_o10_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Graves 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "ttr01_o10_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Graves 3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "ttr01_o10_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Graves 4"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "ttr01_o10_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Graves 5"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "ttr01_o10_05"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "ttr01_o12_01"
+                    },
+                    "STRREF": {
+                      "type": "dword",
+                      "value": 63697
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "ttr01_o14_01"
+                    },
+                    "STRREF": {
+                      "type": "dword",
+                      "value": 63698
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 41798
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_29"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63637
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Swamp Exit 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_17"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Swamp Hut"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_24"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_32"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle Ruin"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TRC01_BOG_A1"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruins"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "TBR01_BOG_R3"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "grass"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63635
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63292
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Swamp"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bog"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Slope"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "slope"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}
