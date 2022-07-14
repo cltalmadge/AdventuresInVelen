@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Echo working directory'){
             steps{
-                sh 'echo hello'
-                echo '${env.WORKSPACE}'
+                echo ${env.WORKSPACE}
             }
         }
         stage('Pack Velen Top') {
