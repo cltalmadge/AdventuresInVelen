@@ -251,6 +251,7 @@ pipeline {
             discordSend description: "", footer: "Successful build results for Velen content", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Build Complete", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
             archiveArtifacts artifacts: 'content/*.hak', followSymlinks: false, allowEmptyArchive: true
             archiveArtifacts artifacts: 'content/*.tlk', followSymlinks: false, allowEmptyArchive: true
+            archiveArtifacts artifacts: 'content/*.zip', followSymlinks: false, allowEmptyArchive: true
             echo 'Build complete'
         }
     }
