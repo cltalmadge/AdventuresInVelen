@@ -31,7 +31,7 @@ pipeline {
                 echo 'Packing Velen top'
                  script {
                     sh "chmod +x content/pack.sh"
-                    sh "dos2unix +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
                     sh "./content/pack.sh hak velen_top"
                 }
             }
