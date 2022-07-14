@@ -1,0 +1,56 @@
+2DA V2.0
+
+           Label            Name     ModelSuffix CEP_VERSION CREATOR SOURCE_URL 
+0          Acid             16877231 acid                                       
+1          Cold             16877257 frost                                      
+2          Electrical       16877248 elect                                      
+3          Fire             16877256 fire                                       
+4          Sonic            16877255 sonic                                      
+5          Holy             16877237 holy                                       
+6          Evil             16877239 neg                                        
+7          NoneNull         16877238 none                                       
+8          NWNCX            16877254 none        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+9          DarkShadow       16877217 dark        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+10         PsionicMind      16877218 mind        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+11         GlowBlue         16877219 glblu       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+12         GlowGreen        16877220 glgrn       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+13         GlowOrange       16877221 glorg       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+14         GlowPurple       16877222 glpur       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+15         GlowRed          16877223 glred       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+16         GlowYellow       16877224 glyel       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+17         FireBlue         16877225 frblu       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+18         FireGreen        16877226 frgrn       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+19         FirePurple       16877227 frpur       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+20         FireRed          16877228 frred       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+21         FireWhite        16877229 frwht       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+22         FireYellow       16877230 fryel       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+23         DripBlue         16877232 drblu       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+24         DripOrange       16877233 drorg       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+25         DripPurple       16877234 drpur       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+26         DripRed          16877235 drred       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+27         DripYellow       16877236 dryel       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+28         AbsorbBlue       16877240 abblu       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+29         AbsorbGreen      16877242 abgrn       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+30         AbsorpPurple     16877243 abpur       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+31         AbsorbOrange     16877244 aborg       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+32         AbsorbGrey       16877245 abgry       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+33         AbsorbYellow     16877246 abyel       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+34         AbsorbWhite      16877247 abwht       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+35         ShockGreen       16877249 shgrn       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+36         ShockRed         16877250 shred       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+37         ShockYellow      16877251 shyel       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+38         ShockPurple      16877252 shpur       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+39         DripBlack        16877258 drblk       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+40         Snow             16877259 snow        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+41         DripBlueNoGlow   16877260 dblu        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+42         DripGreenNoGlow  16877261 dgrn        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+43         DripOrangeNoGlow 16877262 dorg        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+44         DripPurpleNoGlow 16877263 dpur        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+45         DripRedNoGlow    16877264 dred        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+46         DripYellowNoGlow 16877265 dyel        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+47         DripBlackNoGlow  16877266 dblk        2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+48         FireBlack        16877267 frblk       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+49         FireInfernoDF    16877268 frbig       2.6         DeathFace (RestlessKnight)http://nwvault.ign.com/View.php?view=Models.Detail&id=373
+50         GhostFog         16877269 fog         2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+51         ShockOrange      16877270 shorg       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
+52         ShockBlack       16877271 shblk       2.6         The Amethyst Dragonhttp://nwvault.ign.com/View.php?view=Models.Detail&id=477
