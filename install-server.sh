@@ -98,10 +98,12 @@ echo "Pushing to $DIR"
 pushd "$DIR" || exit
 # Move *.hak to live-server/hak
 echo "Moving *.hak to live-server/hak"
-mv ./*.hak live-server/hak
+mv ./velen_content/*.hak live-server/hak
 # Move *.tlk to live-server/tlk
 echo "Moving *.tlk to live-server/tlk"
-mv ./*.tlk live-server/tlk
+mv ./velen_content/*.tlk live-server/tlk
+echo "Removing velen_content directory"
+rmdir velen_content
 # popd
 popd || exit
 # Finished!
