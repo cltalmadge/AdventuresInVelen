@@ -67,8 +67,10 @@ if [ ! -d "$DIR/live-server/mod" ]; then
 fi
 
 # pack all targets with bundle-all.sh
+pushd content || exit
 echo "Packing all targets"
 ./bundle-all.sh
+popd || exit
 # copy velen_content.zip to DIR
 echo "Copying velen_content.zip to $DIR"
 cp content/velen_content.zip "$DIR"
