@@ -31,6 +31,6 @@ docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter N
 mv velen_anim.hak velen_content
 docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/tlk/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes tlk
 mv velen.tlk velen_content
-zip -r velen_content.zip velen_content/
+zip -r velen_content.zip velen_content/**
 #rm -rf velen_content
 popd || exit
