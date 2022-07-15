@@ -66,11 +66,12 @@ if [ ! -d "$DIR/live-server/mod" ]; then
     mkdir -p "$DIR/live-server/modules"
 fi
 
+dos2unix ./*.sh
+dos2unix ./*/*.sh
+
 # pack all targets with bundle-all.sh
-pushd content || exit
 echo "Packing all targets"
 ./bundle-all.sh
-popd || exit
 # copy velen_content.zip to DIR
 echo "Copying velen_content.zip to $DIR"
 cp content/velen_content.zip "$DIR"
