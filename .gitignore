@@ -42,3 +42,6 @@ Desktop.ini
 *.gff
 *.bic
 *.are
+/server/live-server/hak/
+/server/live-server/mod/
+/server/live-server/**/
