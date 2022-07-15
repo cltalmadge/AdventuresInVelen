@@ -62,8 +62,8 @@ if [ ! -d "$DIR/live-server/tlk" ]; then
 fi
 # Create directory dir/live-server/mod if it doesn't exist
 if [ ! -d "$DIR/live-server/mod" ]; then
-    echo "Creating directory $DIR/live-server/mod"
-    mkdir -p "$DIR/live-server/mod"
+    echo "Creating directory $DIR/live-server/modules"
+    mkdir -p "$DIR/live-server/modules"
 fi
 
 # pack all targets with bundle-all.sh
@@ -88,8 +88,8 @@ pushd mod || exit
 # popd
 popd || exit
 # move mod/*.mod to DIR/live-server/mod
-echo "Moving mod/*.mod to $DIR/live-server/mod"
-mv mod/*.mod "$DIR/live-server/mod"
+echo "Moving mod/*.mod to $DIR/live-server/modules"
+mv mod/*.mod "$DIR/live-server/modules"
 # pushd to DIR/
 echo "Pushing to $DIR"
 pushd "$DIR" || exit

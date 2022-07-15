@@ -45,3 +45,8 @@ Desktop.ini
 /server/live-server/hak/
 /server/live-server/mod/
 /server/live-server/**/
+/server/live-server/cryptographic_secret
+/server/live-server/settings.tml
+/server/logs/anvil.log
+/server/logs/nwserverError1.txt
+/server/logs/nwserverLog1.txt

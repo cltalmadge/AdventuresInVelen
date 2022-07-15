@@ -4,7 +4,7 @@ services:
     hostname: velen-live
     stop_signal: SIGINT
     image: nwndotnet/anvil:8193.34.7
-    env_file:  ${PWD-.}/env/nwserver.env
+    env_file:  ${PWD-.}/env/live.env
     stdin_open: true
     tty: true
     volumes:
