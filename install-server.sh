@@ -71,7 +71,7 @@ dos2unix ./*/*.sh
 
 # pack all targets with bundle-all.sh
 echo "Packing all targets"
-./bundle-all.sh
+./content/bundle-all.sh
 # copy velen_content.zip to DIR
 echo "Copying velen_content.zip to $DIR"
 cp content/velen_content.zip "$DIR"
