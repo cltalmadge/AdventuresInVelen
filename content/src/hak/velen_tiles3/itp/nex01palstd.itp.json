@@ -516,40 +516,6 @@
           "type": "dword",
           "value": 63262
         }
-      },
-      {
-        "__struct_id": 0,
-        "ID": {
-          "type": "byte",
-          "value": 2
-        },
-        "LIST": {
-          "type": "list",
-          "value": [
-            {
-              "__struct_id": 0,
-              "RESREF": {
-                "type": "resref",
-                "value": "eraser"
-              },
-              "STRREF": {
-                "type": "dword",
-                "value": 63291
-              }
-            },
-            {
-              "__struct_id": 0,
-              "NAME": {
-                "type": "cexostring",
-                "value": "Wall"
-              },
-              "RESREF": {
-                "type": "resref",
-                "value": "wall"
-              }
-            }
-          ]
-        }
       }
     ]
   }
