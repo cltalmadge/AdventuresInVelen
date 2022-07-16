@@ -20,7 +20,6 @@ pipeline {
             steps {
                 echo 'Building..'
                  script {
-                    sh "docker run --rm -t -v \$(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes"
                     sh 'dos2unix ./mod/pack-module.sh'
                     sh 'chmod +x ./mod/pack-module.sh'
                     sh "./mod/pack-module.sh"
