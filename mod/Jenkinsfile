@@ -52,8 +52,8 @@ pipeline {
         }
         success {
             echo 'Build success'
-            archiveArtifacts artifacts: './mod/*.mod', followSymlinks: false
-            sh "sudo rm -rf ./mod/*.mod"
+            archiveArtifacts artifacts: 'mod/*.mod', followSymlinks: false
+            sh "sudo rm -rf mod/*.mod"
         }
     }
 }
