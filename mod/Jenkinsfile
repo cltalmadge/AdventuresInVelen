@@ -1,7 +1,60 @@
-﻿// Before: Detect changes
-// Step 1: Pack mod
-// Step 2: Check if live or test
-// Step 3: Copy to live mod folder
-// Step 4: Verify that server launches.
-// if launch, success
-// if crash, fail build and print name of last committer.
+﻿pipeline {
+    agent any
+
+    stages {
+        stage('Check for changes'){
+            when{
+                not{
+                    changeset "mod/src/**/**"
+                }
+                expression{
+                    return params.BUILD_ALL == 'No'
+                }
+            }
+            steps{
+                echo "Nothing to do. Exiting."
+                exit 1
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                 script {
+                    sh "docker run --rm -t -v \$(pwd):/nasher urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes"
+                    sh 'dos2unix ./mod/pack-module.sh'
+                    sh 'chmod +x ./mod/pack-module.sh'
+                    sh "./mod/pack-module.sh"
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+                sh 'sudo cp ./mod/*.mod /home/zoltan/velen_server/live-server/modules;'
+                discordSend description: "Copy Amia Module to Test", footer: "Pushed latest module to the server", result: currentBuild.currentResult, title: "Test Server Deployment", webhookURL: params.WEBHOOK
+            }
+        }
+        stage('Reset Server'){
+            when {
+                expression{
+                    return params.RESET == "Yes"
+                }
+            }
+            steps{
+                discordSend description: "Reseting server early to push changes", footer: "Resetting the server", result: currentBuild.currentResult, title: "Server Reset", webhookURL: params.WEBHOOK
+                sh 'export '
+                sh 'chmod +x ./mod/reset-server.sh'
+            }
+        }
+    }
+    post {
+        always {
+            discordSend description: "Build completed.", footer: "Build results for the Amia module", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Module Deployment Results (click to see more)", webhookURL: params.WEBHOOK
+        }
+        success {
+            echo 'Build success'
+            archiveArtifacts artifacts: 'Amia.mod', followSymlinks: false
+            sh "sudo rm -rf Amia.mod"
+        }
+    }
+}

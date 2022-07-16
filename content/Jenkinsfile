@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Before all'){
             steps{
-                discordSend description: "Build for Velen content kicked off", footer: "Build start", link: env.BUILD_URL, title: "Build Kickoff", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Build for Velen content kicked off", footer: "Build start", link: env.BUILD_URL, title: "Build Kickoff", webhookURL: params.WEBHOOK
             }
         }
         stage('Pack Velen Top') {
@@ -30,7 +30,7 @@ pipeline {
                 changeset "content/src/hak/velen_top/**/**"
             }
             steps {
-                discordSend description: "Packing Velen Top", footer: "Velen top hak", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen Top", footer: "Velen top hak", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                 echo 'Packing Velen top'
                  script {
                     sh "chmod +x content/pack.sh"
@@ -44,7 +44,7 @@ pipeline {
                 changeset "content/src/hak/velen_tiles8/**/**"
             }
             steps {
-                discordSend description: "Packing Velen Tiles8", footer: "Velen tiles8", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen Tiles8", footer: "Velen tiles8", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -57,7 +57,7 @@ pipeline {
                 changeset "content/src/hak/velen_tiles7/**/**"
             }
             steps {
-                discordSend description: "Packing Velen Tiles7", footer: "Velen tiles7", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen Tiles7", footer: "Velen tiles7", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -70,7 +70,7 @@ pipeline {
                 changeset "content/src/hak/velen_tiles6/**/**"
             }
             steps {
-                discordSend description: "Packing Velen Tiles6", footer: "Velen tiles6", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen Tiles6", footer: "Velen tiles6", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -83,7 +83,7 @@ pipeline {
                 changeset "content/src/hak/velen_tiles5/**/**"
             }
             steps {
-                discordSend description: "Packing Velen Tiles5", footer: "Velen tiles5", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen Tiles5", footer: "Velen tiles5", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -96,7 +96,7 @@ pipeline {
                 changeset "content/src/hak/velen_tiles4/**/**"
             }
             steps {
-                discordSend description: "Packing Velen Tiles4", footer: "Velen tiles4", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen Tiles4", footer: "Velen tiles4", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -109,7 +109,7 @@ pipeline {
                 changeset "content/src/hak/velen_tiles3/**/**"
             }
             steps {
-                discordSend description: "Packing Velen Tiles3", footer: "Velen tiles3", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen Tiles3", footer: "Velen tiles3", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -122,7 +122,7 @@ pipeline {
                 changeset "content/src/hak/velen_tiles2/**/**"
             }
             steps {
-                discordSend description: "Packing Velen Tiles2", footer: "Velen tiles2", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen Tiles2", footer: "Velen tiles2", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -135,7 +135,7 @@ pipeline {
                 changeset "content/src/hak/velen_tiles1/**/**"
             }
             steps {
-                discordSend description: "Packing Velen Tiles1", footer: "Velen tiles1", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen Tiles1", footer: "Velen tiles1", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -148,7 +148,7 @@ pipeline {
                 changeset "content/src/hak/velen_robe/**/**"
             }
             steps {
-                discordSend description: "Packing Velen robe", footer: "Velen robe", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen robe", footer: "Velen robe", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -161,7 +161,7 @@ pipeline {
                 changeset "content/src/hak/velen_plcs/**/**"
             }
             steps {
-                discordSend description: "Packing Velen Plcs", footer: "Velen Plc", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen Plcs", footer: "Velen Plc", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -174,7 +174,7 @@ pipeline {
                 changeset "content/src/hak/velen_cont/**/**"
             }
             steps {
-                discordSend description: "Packing Velen cont", footer: "Velen Cont", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen cont", footer: "Velen Cont", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -187,7 +187,7 @@ pipeline {
                 changeset "content/src/hak/velen_ccoh/**/**"
             }
             steps {
-                discordSend description: "Packing Velen ccoh", footer: "Velen ccoh", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen ccoh", footer: "Velen ccoh", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -200,7 +200,7 @@ pipeline {
                 changeset "content/src/hak/velen_anim/**/**"
             }
             steps {
-                discordSend description: "Packing Velen anim", footer: "Velen anim", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen anim", footer: "Velen anim", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -213,7 +213,7 @@ pipeline {
                 changeset "content/src/tlk/velen/tlk/**"
             }
             steps {
-                discordSend description: "Packing Velen tlk", footer: "Velen TLK", link: env.BUILD_URL, title: "Packaging TLK", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing Velen tlk", footer: "Velen TLK", link: env.BUILD_URL, title: "Packaging TLK", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/pack.sh"
                     sh "dos2unix content/pack.sh"
@@ -228,7 +228,7 @@ pipeline {
                 }
             }
             steps {
-                discordSend description: "Packing everything", footer: "Packing everything", link: env.BUILD_URL, title: "Packaging All Content", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+                discordSend description: "Packing everything", footer: "Packing everything", link: env.BUILD_URL, title: "Packaging All Content", webhookURL: params.WEBHOOK
                  script {
                     sh "chmod +x content/bundle-all.sh"
                     sh "dos2unix content/bundle-all.sh"
@@ -242,7 +242,7 @@ pipeline {
             echo 'Finalizing results.' 
         }
         success {
-            discordSend description: "", footer: "Successful build results for Velen content", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Build Complete", webhookURL: "https://discord.com/api/webhooks/996982337130733599/frNKPqME61E1c5wHTqDvWC8JTttNDZ5y6lanuL4oooc-Bc4StI8ln7cyDVr1DywSXeVS"
+            discordSend description: "", footer: "Successful build results for Velen content", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Build Complete", webhookURL: params.WEBHOOK
             archiveArtifacts artifacts: 'content/*.hak', followSymlinks: false, allowEmptyArchive: true
             archiveArtifacts artifacts: 'content/*.tlk', followSymlinks: false, allowEmptyArchive: true
             archiveArtifacts artifacts: 'content/*.zip', followSymlinks: false, allowEmptyArchive: true
