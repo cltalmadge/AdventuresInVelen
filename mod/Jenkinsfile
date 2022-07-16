@@ -1,4 +1,4 @@
-﻿pipeline {
+pipeline {
     agent any
 
     stages {
@@ -31,7 +31,7 @@
             steps {
                 echo 'Deploying....'
                 sh 'sudo cp ./mod/*.mod /home/zoltan/velen_server/live-server/modules;'
-                discordSend description: "Copy Amia Module to Test", footer: "Pushed latest module to the server", result: currentBuild.currentResult, title: "Test Server Deployment", webhookURL: params.WEBHOOK
+                discordSend description: "Copy Module to Server", footer: "Copied latest module to the server", result: currentBuild.currentResult, title: "Copied File to Server", webhookURL: params.WEBHOOK
             }
         }
         stage('Reset Server'){
@@ -49,12 +49,12 @@
     }
     post {
         always {
-            discordSend description: "Build completed.", footer: "Build results for the Amia module", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Module Deployment Results (click to see more)", webhookURL: params.WEBHOOK
+            discordSend description: "Build completed.", footer: "Build results for the  module", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Module Deployment Results (click to see more)", webhookURL: params.WEBHOOK
         }
         success {
             echo 'Build success'
-            archiveArtifacts artifacts: 'Amia.mod', followSymlinks: false
-            sh "sudo rm -rf Amia.mod"
+            archiveArtifacts artifacts: './mod/*.mod', followSymlinks: false
+            sh "sudo rm -rf ./mod/*.mod"
         }
     }
 }
