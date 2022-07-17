@@ -7,9 +7,6 @@ pipeline {
                 not{
                     changeset "mod/src/**/**"
                 }
-                expression{
-                    return params.BUILD_ALL == 'No'
-                }
             }
             steps{
                 echo "Nothing to do. Exiting."

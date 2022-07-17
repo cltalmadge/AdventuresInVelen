@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NWN.Anvil" Version="8193.34.13" />
+      <PackageReference Include="NWN.Native" Version="8193.34.4" />
+    </ItemGroup>
+
+</Project>
