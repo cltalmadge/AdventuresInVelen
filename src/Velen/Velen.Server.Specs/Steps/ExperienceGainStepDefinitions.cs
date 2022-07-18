@@ -1,7 +1,9 @@
 ﻿using BoDi;
 using FluentAssertions;
+using Velen.Leveling.Services;
 using Velen.Server.Models;
 using Velen.Server.Services;
+using Velen.Server.Services.Leveling;
 using Velen.Server.Specs.Mock;
 
 namespace Velen.Server.Specs.Steps;
@@ -36,7 +38,8 @@ public class ExperienceGainStepDefinitions
         _container.RegisterInstanceAs(expProvider);
         _container.RegisterInstanceAs(exp);
         _container.RegisterInstanceAs(levelValueProvider);
-        _player = new VelenPlayer(0, _container.Resolve<IExperienceValueProvider>(), _container.Resolve<ILevelValueProvider>());
+        _player = new VelenPlayer(0, _container.Resolve<IExperienceValueProvider>(),
+            _container.Resolve<ILevelValueProvider>());
     }
 
     [Given(@"a fatigue level of (.*)")]

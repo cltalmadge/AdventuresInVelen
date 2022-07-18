@@ -1,5 +1,6 @@
 ﻿using Velen.Server.Models;
 using Velen.Server.Services;
+using Velen.Server.Services.Leveling;
 
 namespace Velen.Server.Specs.Mock;
 

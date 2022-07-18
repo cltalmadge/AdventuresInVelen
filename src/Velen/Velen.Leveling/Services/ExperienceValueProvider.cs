@@ -1,7 +1,8 @@
 ﻿using NWN.Core;
 using Velen.Server.Models;
+using Velen.Server.Services.Leveling;
 
-namespace Velen.Server.Services;
+namespace Velen.Leveling.Services;
 
 public class ExperienceValueProvider : IExperienceValueProvider
 {

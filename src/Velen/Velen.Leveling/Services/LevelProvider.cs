@@ -1,8 +1,9 @@
 ﻿using Anvil.Services;
 using NWN.Core;
 using Velen.Server.Models;
+using Velen.Server.Services.Leveling;
 
-namespace Velen.Server.Services;
+namespace Velen.Leveling.Services;
 
 [ServiceBinding(typeof(ILevelValueProvider))]
 public class LevelProvider : ILevelValueProvider

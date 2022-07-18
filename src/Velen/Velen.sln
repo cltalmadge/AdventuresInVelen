@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velen.Server.Specs", "Velen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velen.Server", "Velen.Server\Velen.Server.csproj", "{5618E604-F8A7-4549-AAD8-0EB8E7A033DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velen.Leveling", "Velen.Leveling\Velen.Leveling.csproj", "{7A309560-0D77-4229-BCAE-72867D8E02D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{5618E604-F8A7-4549-AAD8-0EB8E7A033DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5618E604-F8A7-4549-AAD8-0EB8E7A033DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5618E604-F8A7-4549-AAD8-0EB8E7A033DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A309560-0D77-4229-BCAE-72867D8E02D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A309560-0D77-4229-BCAE-72867D8E02D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A309560-0D77-4229-BCAE-72867D8E02D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A309560-0D77-4229-BCAE-72867D8E02D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

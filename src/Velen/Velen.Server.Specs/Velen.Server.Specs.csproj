@@ -23,6 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Velen.Leveling\Velen.Leveling.csproj" />
       <ProjectReference Include="..\Velen.Server\Velen.Server.csproj" />
     </ItemGroup>
 

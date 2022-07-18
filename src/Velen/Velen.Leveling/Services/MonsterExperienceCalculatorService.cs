@@ -1,7 +1,8 @@
 ﻿using Anvil.Services;
 using Velen.Server.Models;
+using Velen.Server.Services.Leveling;
 
-namespace Velen.Server.Services;
+namespace Velen.Leveling.Services;
 
 [ServiceBinding(typeof(IExperienceCalculatorService))]
 public class MonsterExperienceCalculatorService : IExperienceCalculatorService

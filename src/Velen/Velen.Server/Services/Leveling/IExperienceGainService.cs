@@ -1,4 +1,4 @@
-﻿namespace Velen.Server.Services;
+﻿namespace Velen.Server.Services.Leveling;
 
 public interface IExperienceGainService
 {
