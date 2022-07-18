@@ -1,6 +1,6 @@
 using System;
 
-namespace Velen.Leveling.Specs.Drivers
+namespace Velen.Server.Specs.Drivers
 {
     public class Driver
     {

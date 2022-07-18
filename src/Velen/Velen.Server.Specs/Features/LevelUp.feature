@@ -6,4 +6,4 @@ Scenario: A player levels up
 	Given a player with a level of 1
 	When the player levels up
 	Then the level up success value is true
-	And the player level should be 2
+	And the level should be 2

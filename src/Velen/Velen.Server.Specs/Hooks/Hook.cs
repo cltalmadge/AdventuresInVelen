@@ -1,7 +1,7 @@
 using System;
 using TechTalk.SpecFlow;
 
-namespace Velen.Leveling.Specs.Hooks
+namespace Velen.Server.Specs.Hooks
 {
     [Binding]
     public class Hooks

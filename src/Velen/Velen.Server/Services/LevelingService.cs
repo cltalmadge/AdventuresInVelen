@@ -1,8 +1,7 @@
-﻿using Anvil.API;
-using Anvil.Services;
-using Velen.Core.Models;
+﻿using Anvil.Services;
+using Velen.Server.Models;
 
-namespace Velen.Leveling.Services;
+namespace Velen.Server.Services;
 
 [ServiceBinding(typeof(ILevelingService))]
 public class LevelingService : ILevelingService
@@ -11,8 +10,7 @@ public class LevelingService : ILevelingService
 
     public void LevelUp(VelenPlayer velenPlayer)
     {
-        NwPlayer player = velenPlayer.NwPlayer;
-        velenPlayer.Level += 1;
         LevelUpSuccess = true;
+        velenPlayer.SetLevel(velenPlayer.GetLevel() + 1);
     }
 }

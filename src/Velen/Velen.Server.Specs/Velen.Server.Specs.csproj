@@ -11,7 +11,10 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoFixture" Version="4.17.0" />
+        <PackageReference Include="AutoFixture.AutoMoq" Version="4.17.0" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+        <PackageReference Include="NSubstitute" Version="4.4.0" />
         <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
         <PackageReference Include="SpecFlow.NUnit" Version="3.9.22" />
         <PackageReference Include="nunit" Version="3.13.2" />
@@ -20,8 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Velen.Core\Velen.Core.csproj" />
-      <ProjectReference Include="..\Velen.Leveling\Velen.Leveling.csproj" />
+      <ProjectReference Include="..\Velen.Server\Velen.Server.csproj" />
     </ItemGroup>
 
 </Project>
