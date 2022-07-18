@@ -1,12 +1,9 @@
-﻿using Velen.Server.Services;
-using Velen.Server.Services.Leveling;
+﻿using Velen.Server.Services.Leveling;
 
 namespace Velen.Server.Models;
 
 public class VelenPlayer
 {
-    private const int Unset = 0;
-
     private readonly IExperienceValueProvider _expProvider;
     private readonly ILevelValueProvider _levelProvider;
 
