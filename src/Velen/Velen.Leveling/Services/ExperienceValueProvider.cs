@@ -1,9 +1,11 @@
-﻿using NWN.Core;
+﻿using Anvil.Services;
+using NWN.Core;
 using Velen.Server.Models;
 using Velen.Server.Services.Leveling;
 
 namespace Velen.Leveling.Services;
 
+[ServiceBinding(typeof(IExperienceValueProvider))]
 public class ExperienceValueProvider : IExperienceValueProvider
 {
     public int GetExperiencePoints(VelenPlayer player) => NWScript.GetXP(player.LoginObjectId);
