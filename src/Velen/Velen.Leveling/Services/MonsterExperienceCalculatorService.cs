@@ -5,7 +5,7 @@ using Velen.Server.Services.Leveling;
 namespace Velen.Leveling.Services;
 
 [ServiceBinding(typeof(IExperienceCalculatorService))]
-public class MonsterExperienceCalculatorService : IExperienceCalculatorService
+public sealed class MonsterExperienceCalculatorService : IExperienceCalculatorService
 {
     public int CalculateExperience(VelenPlayer player, int xpValue)
     {
