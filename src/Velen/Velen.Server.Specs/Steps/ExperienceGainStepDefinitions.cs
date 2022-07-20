@@ -7,6 +7,9 @@ using Velen.Server.Specs.Mock;
 
 namespace Velen.Server.Specs.Steps;
 
+/// <summary>
+/// Steps that test experience calculation.
+/// </summary>
 [Binding]
 public class ExperienceGainStepDefinitions
 {
@@ -21,12 +24,6 @@ public class ExperienceGainStepDefinitions
         _container = container;
     }
 
-    [Given(@"a player a level of (.*)")]
-    public void GivenAPlayerALevelOf(int level)
-    {
-        _player.SetLevel(level);
-    }
-
     [BeforeScenario]
     public void SetUpExperienceGainService()
     {
@@ -39,6 +36,12 @@ public class ExperienceGainStepDefinitions
         _container.RegisterInstanceAs(levelValueProvider);
         _player = new VelenPlayer(0, _container.Resolve<IExperienceValueProvider>(),
             _container.Resolve<ILevelValueProvider>());
+    }
+
+    [Given(@"a player a level of (.*)")]
+    public void GivenAPlayerALevelOf(int level)
+    {
+        _player.SetLevel(level);
     }
 
     [Given(@"a fatigue level of (.*)")]
