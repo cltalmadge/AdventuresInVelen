@@ -23,13 +23,7 @@ public class VelenPlayer
     /// Sets the level of the player using a ILevelValueProvider that was provided during construction.
     /// </summary>
     /// <param name="level">an integer between 1 and 30, inclusive. Values above 30 will default to 30. Values below 1 will default to 1.</param>
-    public void SetLevel(int level)
-    {
-        int expNeeded = level * (level - 1) * 500;
-
-        _expProvider.SetExperiencePoints(this, expNeeded);
-        _levelProvider.SetLevel(this, Math.Clamp(level, 1, 30));
-    }
+    public void SetLevel(int level) => _levelProvider.SetLevel(this, Math.Clamp(level, 1, 30));
 
     public void SetExperiencePoints(int xp)
     {
