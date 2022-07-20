@@ -1,5 +1,6 @@
 ﻿using BoDi;
 using FluentAssertions;
+using Velen.Leveling.Services;
 using Velen.Server.Models;
 using Velen.Server.Services;
 using Velen.Server.Services.Leveling;
@@ -12,13 +13,6 @@ public class LevelUpStepDefinitions
 {
     private readonly LevelingService _levelingService = new();
     private VelenPlayer _velenPlayer;
-    private readonly IObjectContainer _container;
-
-
-    public LevelUpStepDefinitions(IObjectContainer container)
-    {
-        _container = container;
-    }
 
     [BeforeScenario]
     public void CreateLeveler()

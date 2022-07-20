@@ -1,7 +1,8 @@
 ﻿using Anvil.Services;
 using Velen.Server.Models;
+using Velen.Server.Services.Leveling;
 
-namespace Velen.Server.Services.Leveling;
+namespace Velen.Leveling.Services;
 
 [ServiceBinding(typeof(ILevelingService))]
 public class LevelingService : ILevelingService
