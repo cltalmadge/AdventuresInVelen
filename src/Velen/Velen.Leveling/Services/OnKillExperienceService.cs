@@ -33,18 +33,21 @@ public class OnKillExperienceService
 
         IContainer container = ContainerConfig.Configure();
         using ILifetimeScope scope = container.BeginLifetimeScope();
-
-
+        
         VelenPlayer player =
             container.Resolve<VelenPlayer>(new NamedParameter("loginObjectId", killer.LoginCreature.ObjectId));
 
-        int partySize = killer.PartyMembers.Count();
-        int monsterXpValue = (int)dead.ChallengeRating * ExperienceConfig.Instance().ExperienceScale * partySize / (4 / (4 + partySize - 1)) ;
-        
-        int experienceToAward = _fatigueCalculator.CalculateExperience(player, monsterXpValue);
+        int experienceToAward = _fatigueCalculator.CalculateExperience(player, MonsterXpValue(killer, dead));
         int playerExperience = player.GetExperiencePoints();
 
-
         player.SetExperiencePoints(playerExperience + experienceToAward);
+    }
+
+    private static int MonsterXpValue(NwPlayer killer, NwCreature dead)
+    {
+        int partySize = killer.PartyMembers.Count();
+        int monsterXpValue = (int)dead.ChallengeRating * ExperienceConfig.Instance().ExperienceScale * partySize /
+                             (4 / (4 + partySize - 1));
+        return monsterXpValue;
     }
 }
