@@ -20,7 +20,7 @@ public class OnKillExperienceService
         Log.Info("OnKillExperienceService started");
     }
 
-    [ScriptHandler("zol_on_death")]
+    [ScriptHandler("vel_on_death")]
     public void ResolveXpForMonsterKill(CallInfo info)
     {
         NwObject? lastKiller = NWScript.GetLastKiller().ToNwObject();
