@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # get dir from user
 if [ $# -eq 0 ]; then
     echo "No directory specified."

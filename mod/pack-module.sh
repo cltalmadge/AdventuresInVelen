@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Get the directory the script file is in.
 SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 pushd "$SCRIPTDIR" || exit

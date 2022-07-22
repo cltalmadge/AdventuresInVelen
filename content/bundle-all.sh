@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 pushd content/ || exit
 mkdir velen_content/
 docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_top

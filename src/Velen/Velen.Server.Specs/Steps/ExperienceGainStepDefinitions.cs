@@ -27,7 +27,7 @@ public class ExperienceGainStepDefinitions
     [BeforeScenario]
     public void SetUpExperienceGainService()
     {
-        IExperienceCalculatorService exp = new MonsterExperienceCalculatorService();
+        IExperienceCalculatorService exp = new FatigueKillExperienceCalculatorService();
         IExperienceValueProvider expProvider = new MockExperienceValueProvider(1);
         ILevelValueProvider levelValueProvider = new MockLevelValueProvider(1);
 
