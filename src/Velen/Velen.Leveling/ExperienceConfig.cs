@@ -8,7 +8,7 @@ public class ExperienceConfig
     {
     }
     
-    private static ExperienceConfig _instance;
+    private static ExperienceConfig _instance = null!;
     private static readonly object Lock = new();
     
     // Thread safe singleton
@@ -32,6 +32,4 @@ public class ExperienceConfig
   
     public int ExperienceScale { get; set; }
 
-    // public property that takes a function as an argument to calculate experience lost on respawn
-    // public Func<int, int> CalculateRespawnExpLoss { get; set; }
 }

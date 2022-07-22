@@ -23,7 +23,10 @@ public class OnKillExperienceService
     [ScriptHandler("zol_on_death")]
     public void ResolveXpForMonsterKill(CallInfo info)
     {
-        if (!NWScript.GetLastKiller().ToNwObject().IsPlayerControlled(out NwPlayer? killer))
+        NwObject? lastKiller = NWScript.GetLastKiller().ToNwObject();
+        NwCreature dead = (NwCreature)info.ObjectSelf!;
+
+        if (!lastKiller.IsPlayerControlled(out NwPlayer? killer) || !lastKiller.IsValid)
         {
             return;
         }
@@ -31,18 +34,17 @@ public class OnKillExperienceService
         IContainer container = ContainerConfig.Configure();
         using ILifetimeScope scope = container.BeginLifetimeScope();
 
-        if (killer.LoginCreature == null)
-        {
-            Log.Warn("Killer was null.");
-            return;
-        }
 
         VelenPlayer player =
             container.Resolve<VelenPlayer>(new NamedParameter("loginObjectId", killer.LoginCreature.ObjectId));
 
-        int monsterXpValue = 0;
+        int partySize = killer.PartyMembers.Count();
+        int monsterXpValue = (int)dead.ChallengeRating * ExperienceConfig.Instance().ExperienceScale * partySize / (4 / (4 + partySize - 1)) ;
+        
         int experienceToAward = _fatigueCalculator.CalculateExperience(player, monsterXpValue);
         int playerExperience = player.GetExperiencePoints();
+
+
         player.SetExperiencePoints(playerExperience + experienceToAward);
     }
 }
