@@ -3,7 +3,7 @@ services:
   nwserver:
     hostname: velen-live
     stop_signal: SIGINT
-    image: nwndotnet/anvil:8193.34.7
+    image: nwndotnet/anvil:8193.34.13
     env_file:  ${PWD-.}/env/live.env
     stdin_open: true
     tty: true
