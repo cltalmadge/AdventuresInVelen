@@ -10,7 +10,6 @@ pipeline {
             }
             steps{
                 echo "Nothing to do. Exiting."
-                exit 1
             }
         }
         stage('Build') {
