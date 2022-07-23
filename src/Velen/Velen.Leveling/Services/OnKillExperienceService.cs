@@ -20,34 +20,45 @@ public class OnKillExperienceService
         Log.Info("OnKillExperienceService started");
     }
 
-    [ScriptHandler("vel_on_death")]
+    [ScriptHandler("ve_def_ondeath")]
     public void ResolveXpForMonsterKill(CallInfo info)
     {
         NwObject? lastKiller = NWScript.GetLastKiller().ToNwObject();
         NwCreature dead = (NwCreature)info.ObjectSelf!;
+        bool killerNotValid = !lastKiller.IsValid;
+        bool notPlayerControlled = !lastKiller.IsPlayerControlled(out NwPlayer? killer);
 
-        if (!lastKiller.IsPlayerControlled(out NwPlayer? killer) || !lastKiller.IsValid)
+        if (killerNotValid) return;
+
+        if (notPlayerControlled)
         {
             return;
         }
 
         IContainer container = ContainerConfig.Configure();
         using ILifetimeScope scope = container.BeginLifetimeScope();
-        
+
         VelenPlayer player =
             container.Resolve<VelenPlayer>(new NamedParameter("loginObjectId", killer.LoginCreature.ObjectId));
 
-        int experienceToAward = _fatigueCalculator.CalculateExperience(player, MonsterXpValue(killer, dead));
+        int monsterXpValue = MonsterXpValue(dead) * ExperienceConfig.Instance().ExperienceScale / 10;
+        int partyAdjustedValue = PartyAdjustedXpValue(killer.PartyMembers, monsterXpValue);
+        
+        int experienceToAward = _fatigueCalculator.CalculateExperience(player, partyAdjustedValue);
         int playerExperience = player.GetExperiencePoints();
 
         player.SetExperiencePoints(playerExperience + experienceToAward);
     }
 
-    private static int MonsterXpValue(NwPlayer killer, NwCreature dead)
+    private static int MonsterXpValue(NwCreature dead) => (int)((10 + dead.Level) * 1.8);
+
+    private static int PartyAdjustedXpValue(IEnumerable<NwPlayer> playerPartyMembers, int monsterXpValue)
     {
-        int partySize = killer.PartyMembers.Count();
-        int monsterXpValue = (int)dead.ChallengeRating * ExperienceConfig.Instance().ExperienceScale * partySize /
-                             (4 / (4 + partySize - 1));
-        return monsterXpValue;
+        int averageLevel = playerPartyMembers.Sum(partyMember => partyMember.LoginCreature.Level) /
+                           playerPartyMembers.Count();
+
+        double deductedXp = playerPartyMembers.Count() > 1 ? averageLevel * 1.5 : 0;
+        
+        return (int)(monsterXpValue - deductedXp);
     }
 }
