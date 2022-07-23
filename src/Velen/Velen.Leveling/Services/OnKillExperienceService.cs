@@ -25,7 +25,7 @@ public class OnKillExperienceService
     {
         NwObject? lastKiller = NWScript.GetLastKiller().ToNwObject();
         NwCreature dead = (NwCreature)info.ObjectSelf!;
-        bool killerNotValid = !lastKiller.IsValid;
+        bool killerNotValid = !(lastKiller!.IsValid);
         bool notPlayerControlled = !lastKiller.IsPlayerControlled(out NwPlayer? killer);
 
         if (killerNotValid) return;
@@ -39,11 +39,11 @@ public class OnKillExperienceService
         using ILifetimeScope scope = container.BeginLifetimeScope();
 
         VelenPlayer player =
-            container.Resolve<VelenPlayer>(new NamedParameter("loginObjectId", killer.LoginCreature.ObjectId));
+            container.Resolve<VelenPlayer>(new NamedParameter("loginObjectId", killer!.LoginCreature!.ObjectId));
 
         int monsterXpValue = MonsterXpValue(dead) * ExperienceConfig.Instance().ExperienceScale / 10;
         int partyAdjustedValue = PartyAdjustedXpValue(killer.PartyMembers, monsterXpValue);
-        
+
         int experienceToAward = _fatigueCalculator.CalculateExperience(player, partyAdjustedValue);
         int playerExperience = player.GetExperiencePoints();
 
@@ -54,11 +54,12 @@ public class OnKillExperienceService
 
     private static int PartyAdjustedXpValue(IEnumerable<NwPlayer> playerPartyMembers, int monsterXpValue)
     {
-        int averageLevel = playerPartyMembers.Sum(partyMember => partyMember.LoginCreature.Level) /
-                           playerPartyMembers.Count();
+        List<NwPlayer> partyMembers = playerPartyMembers.ToList();
+        int partySize = partyMembers.Count;
+        int averageLevel = partyMembers.Sum(partyMember => partyMember.LoginCreature!.Level) / partySize;
 
-        double deductedXp = playerPartyMembers.Count() > 1 ? averageLevel * 1.5 : 0;
-        
+        double deductedXp = partySize > 1 ? averageLevel * 1.5 : 0;
+
         return (int)(monsterXpValue - deductedXp);
     }
 }
