@@ -26,6 +26,7 @@ public class VelenPlayer : IPlayer
         set => _fatigueProvider.SetFatigue(this, value);
     }
 
+
     /// <summary>
     /// Gets the player's level depending on the ILevelValueProvider provided to the class.
     /// </summary>
