@@ -1,5 +1,4 @@
-﻿using AutoFixture;
-using BoDi;
+﻿using BoDi;
 using FluentAssertions;
 using NSubstitute;
 using Velen.Leveling.Services.Experience;
@@ -21,9 +20,11 @@ public class ExperienceGainStepDefinitions
 
     private int _priorExperience;
     private int _expectedExperience;
-    private Fixture _fixture = new();
 
+    // Disables null warning. Player is setup before the scenario.
+#pragma warning disable CS8618
     public ExperienceGainStepDefinitions(IObjectContainer container)
+#pragma warning restore CS8618
     {
         _container = container;
     }
