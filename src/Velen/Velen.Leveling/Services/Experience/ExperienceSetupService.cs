@@ -6,7 +6,7 @@ using NLog;
 using NWN.Core.NWNX;
 using Velen.Server.Models;
 
-namespace Velen.Leveling.Services;
+namespace Velen.Leveling.Services.Experience;
 
 /// <summary>
 /// Disables the default xp scale as the configured exp scale is used instead.

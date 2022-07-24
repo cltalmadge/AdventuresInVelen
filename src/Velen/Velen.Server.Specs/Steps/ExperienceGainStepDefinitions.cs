@@ -1,6 +1,6 @@
 ﻿using BoDi;
 using FluentAssertions;
-using Velen.Leveling.Services;
+using Velen.Leveling.Services.Experience;
 using Velen.Server.Models;
 using Velen.Server.Services.Leveling;
 using Velen.Server.Specs.Mock;

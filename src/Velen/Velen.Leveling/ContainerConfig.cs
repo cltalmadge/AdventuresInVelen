@@ -1,6 +1,8 @@
 using Autofac;
-using Velen.Leveling.Services;
+using Velen.Leveling.Services.Experience;
+using Velen.Leveling.Services.Fatigue;
 using Velen.Server.Models;
+using Velen.Server.Services.Fatigue;
 using Velen.Server.Services.Leveling;
 
 namespace Velen.Leveling;
@@ -17,6 +19,7 @@ public static class ContainerConfig
         builder.RegisterType<ExperienceValueProvider>().As<IExperienceValueProvider>();
         builder.RegisterType<LevelProvider>().As<ILevelValueProvider>();
         builder.RegisterType<VelenPlayer>().AsSelf();
+        builder.RegisterType<FatigueProvider>().As<IFatigueProvider>();
         
         return builder.Build();
     }

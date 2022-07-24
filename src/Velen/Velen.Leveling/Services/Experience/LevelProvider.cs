@@ -3,7 +3,7 @@ using NWN.Core;
 using Velen.Server.Models;
 using Velen.Server.Services.Leveling;
 
-namespace Velen.Leveling.Services;
+namespace Velen.Leveling.Services.Experience;
 
 [ServiceBinding(typeof(ILevelValueProvider))]
 public sealed class LevelProvider : ILevelValueProvider

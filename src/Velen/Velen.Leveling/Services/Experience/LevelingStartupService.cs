@@ -1,7 +1,7 @@
 using Anvil.Services;
 using NLog;
 
-namespace Velen.Leveling.Services;
+namespace Velen.Leveling.Services.Experience;
 
 [ServiceBinding(typeof(LevelingStartupService))]
 public class LevelingStartupService
