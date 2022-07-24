@@ -48,6 +48,10 @@ public class OnKillExperienceService
         int playerExperience = player.GetExperiencePoints();
 
         player.SetExperiencePoints(playerExperience + experienceToAward);
+        Log.Info("Fatigue before kill: {0}", player.Fatigue);
+        player.Fatigue += (float) 0.5;
+        Log.Info("Fatigue after kill: {0}", player.Fatigue);
+
     }
 
     private static int MonsterXpValue(NwCreature dead) => (int)((10 + dead.Level) * 1.8);
