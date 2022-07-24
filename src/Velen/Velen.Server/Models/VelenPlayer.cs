@@ -1,4 +1,5 @@
-﻿using Velen.Server.Services.Leveling;
+﻿using Velen.Server.Services.Fatigue;
+using Velen.Server.Services.Leveling;
 
 namespace Velen.Server.Models;
 
@@ -6,17 +7,24 @@ public class VelenPlayer : IPlayer
 {
     private readonly IExperienceValueProvider _expProvider;
     private readonly ILevelValueProvider _levelProvider;
+    private IFatigueProvider _fatigueProvider;
 
-    public VelenPlayer(uint loginObjectId, IExperienceValueProvider expProvider, ILevelValueProvider levelProvider)
+    public VelenPlayer(uint loginObjectId, IExperienceValueProvider expProvider, ILevelValueProvider levelProvider,
+        IFatigueProvider fatigueProvider)
     {
+        LoginObjectId = loginObjectId;
         _expProvider = expProvider;
         _levelProvider = levelProvider;
-        LoginObjectId = loginObjectId;
+        _fatigueProvider = fatigueProvider;
     }
 
     public uint LoginObjectId { get; }
 
-    public float Fatigue { get; set; }
+    public float Fatigue
+    {
+        get => _fatigueProvider.GetFatigue(this);
+        set => _fatigueProvider.SetFatigue(this, value);
+    }
 
     /// <summary>
     /// Gets the player's level depending on the ILevelValueProvider provided to the class.
@@ -41,5 +49,4 @@ public class VelenPlayer : IPlayer
     /// </summary>
     /// <returns>the experience point value from the experience value provider.</returns>
     public int GetExperiencePoints() => _expProvider.GetExperiencePoints(this);
-
 }

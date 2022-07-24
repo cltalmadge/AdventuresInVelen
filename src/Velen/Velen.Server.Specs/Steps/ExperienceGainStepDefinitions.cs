@@ -1,7 +1,10 @@
-﻿using BoDi;
+﻿using AutoFixture;
+using BoDi;
 using FluentAssertions;
+using NSubstitute;
 using Velen.Leveling.Services.Experience;
 using Velen.Server.Models;
+using Velen.Server.Services.Fatigue;
 using Velen.Server.Services.Leveling;
 using Velen.Server.Specs.Mock;
 
@@ -18,6 +21,7 @@ public class ExperienceGainStepDefinitions
 
     private int _priorExperience;
     private int _expectedExperience;
+    private Fixture _fixture = new();
 
     public ExperienceGainStepDefinitions(IObjectContainer container)
     {
@@ -30,12 +34,14 @@ public class ExperienceGainStepDefinitions
         IExperienceCalculatorService exp = new FatigueKillExperienceCalculatorService();
         IExperienceValueProvider expProvider = new MockExperienceValueProvider(1);
         ILevelValueProvider levelValueProvider = new MockLevelValueProvider(1);
+        IFatigueProvider fatigueProvider = new MockFatigueProvider();
 
         _container.RegisterInstanceAs(expProvider);
         _container.RegisterInstanceAs(exp);
         _container.RegisterInstanceAs(levelValueProvider);
+        _container.RegisterInstanceAs(fatigueProvider);
         _player = new VelenPlayer(0, _container.Resolve<IExperienceValueProvider>(),
-            _container.Resolve<ILevelValueProvider>());
+            _container.Resolve<ILevelValueProvider>(), _container.Resolve<IFatigueProvider>());
     }
 
     [Given(@"a player a level of (.*)")]
