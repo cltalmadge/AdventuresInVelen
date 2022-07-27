@@ -11,7 +11,6 @@ public sealed class FatigueKillExperienceCalculatorService : IExperienceCalculat
     {
         int baseXp = 25 + (int)(5.0 * (challengeRating - partyLevel));
         int fatigueAdjustment = (int)((player.GetLevel() + player.Fatigue) / 10);
-        
-        return baseXp - fatigueAdjustment;
+        return Math.Clamp(baseXp - fatigueAdjustment, 0, 100);
     }
 }
