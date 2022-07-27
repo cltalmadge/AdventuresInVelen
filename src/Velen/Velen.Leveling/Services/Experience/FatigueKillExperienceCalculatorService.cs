@@ -7,9 +7,11 @@ namespace Velen.Leveling.Services.Experience;
 [ServiceBinding(typeof(IExperienceCalculatorService))]
 public sealed class FatigueKillExperienceCalculatorService : IExperienceCalculatorService
 {
-    public int CalculateExperience(VelenPlayer player, int xpValue)
+    public int CalculateExperience(VelenPlayer player, int partyLevel, int challengeRating)
     {
-        int fatigueAdjustedValue = (int)(xpValue - xpValue * (player.GetLevel() + player.Fatigue) / 100);
-        return player.GetLevel() <= 5 ? xpValue : fatigueAdjustedValue;
+        int baseXp = 25 + (int)(5.0 * (challengeRating - partyLevel));
+        int fatigueAdjustment = (int)((player.GetLevel() + player.Fatigue) / 10);
+        
+        return baseXp - fatigueAdjustment;
     }
 }

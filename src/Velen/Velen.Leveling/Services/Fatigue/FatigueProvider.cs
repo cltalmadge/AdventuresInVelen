@@ -11,7 +11,7 @@ public class FatigueProvider : IFatigueProvider
 
     public void SetFatigue(VelenPlayer player, float amount) =>
         NWScript.SetCampaignFloat(NwModule.Instance.Name, FatiguePrefix + NWScript.GetName(player.LoginObjectId),
-            amount);
+            Math.Clamp(amount, 0, 100));
 
     public float GetFatigue(VelenPlayer player) => NWScript.GetCampaignFloat(NwModule.Instance.Name,
         FatiguePrefix + NWScript.GetName(player.LoginObjectId));

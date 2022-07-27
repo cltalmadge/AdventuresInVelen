@@ -41,29 +41,11 @@ public class OnKillExperienceService
         VelenPlayer player =
             container.Resolve<VelenPlayer>(new NamedParameter("loginObjectId", killer!.LoginCreature!.ObjectId));
 
-        int monsterXpValue = MonsterXpValue(dead) * ExperienceConfig.Instance().ExperienceScale / 10;
-        int partyAdjustedValue = PartyAdjustedXpValue(killer.PartyMembers, monsterXpValue);
-
-        int experienceToAward = _fatigueCalculator.CalculateExperience(player, partyAdjustedValue);
+        int partyLevel = killer.PartyMembers.Sum(p => p.LoginCreature!.Level) / killer.PartyMembers.Count();
+        int experienceToAward = _fatigueCalculator.CalculateExperience(player, partyLevel, (int)dead.ChallengeRating);
         int playerExperience = player.GetExperiencePoints();
 
         player.SetExperiencePoints(playerExperience + experienceToAward);
-        Log.Info("Fatigue before kill: {0}", player.Fatigue);
-        player.Fatigue += (float) 0.5;
-        Log.Info("Fatigue after kill: {0}", player.Fatigue);
-
-    }
-
-    private static int MonsterXpValue(NwCreature dead) => (int)((10 + dead.Level) * 1.8);
-
-    private static int PartyAdjustedXpValue(IEnumerable<NwPlayer> playerPartyMembers, int monsterXpValue)
-    {
-        List<NwPlayer> partyMembers = playerPartyMembers.ToList();
-        int partySize = partyMembers.Count;
-        int averageLevel = partyMembers.Sum(partyMember => partyMember.LoginCreature!.Level) / partySize;
-
-        double deductedXp = partySize > 1 ? averageLevel * 1.5 : 0;
-
-        return (int)(monsterXpValue - deductedXp);
+        player.Fatigue += (float)0.5;
     }
 }
