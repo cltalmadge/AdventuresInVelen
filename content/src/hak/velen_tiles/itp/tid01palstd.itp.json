@@ -1,0 +1,276 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Transition"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tid01_b17_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs - Up"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tid01_b19_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs - Down"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tid01_b18_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Cell"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tid01_h03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tid01_h02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Maze End 1, Mosaic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_d51_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Maze End 2, Mosaic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_d51_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Maze Side, Mosaic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_d52_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple - Drow (4x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tid01_j04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tid01_h06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Bedroom (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tid01_h09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Under Well (4x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tid01_j08_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Wall"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63301
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Floor"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63459
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Floor2"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 83562
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "2x2"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 83626
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Corridor"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63461
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Doorway"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63463
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Maze - Mosaic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "MazeMosaic"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "(Eraser)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

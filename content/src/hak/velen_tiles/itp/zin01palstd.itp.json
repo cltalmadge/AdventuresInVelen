@@ -1,0 +1,1871 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Living Room"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_e01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Kitchen"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_g01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Inn"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_i01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Shop"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_m01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Door - Living Room 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_o09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Door - Kitchen 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_p09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Door - Inn 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_o13_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Door - Shop 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_p13_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Up"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_o16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Exit - Corridor, Big"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_a07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Down"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_p16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Exit - Corridor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_a07_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Door - Transition"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_z20_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Portal - Inn"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Chessboard - Living Room"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_b01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Up, Living Room Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_d01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Down, Living Room Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_d01_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Both, Living Room Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_d01_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Both, Kitchen Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_f01_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Up, Kitchen Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_f01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Down, Kitchen Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_f01_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Exit - Kitchen Corner 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_f01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Exit - Kitchen Corner 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_f01_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Exit - Living Room Corner 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_d01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Exit - Living Room Corner 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_d01_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Up, Home Corner 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_q02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Up, Home Corner 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_q02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Exit - Home Corner 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_q03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Exit - Home Corner 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_q03_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Stairs - Down, Home Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_q02_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Window - Home"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_q04_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Window - Porthole 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_b14_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Window - Porthole 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_b14_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Window - Porthole 3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_b14_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Table - Tree"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o21_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Table - Tree, Lights"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o21_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Pool - Platform, Lights"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o22_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Pool - Platform, Tree"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o22_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Wall Pool - Platform, Lights"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o23_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Wall Tree - Platform"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o23_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Wall Tree - Platform, Lights"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o23_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Stub/Candle - Platform"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o23_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Exit - Platform"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o24_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Stairs - Up, Spiral"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o25_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Stairs - Up, Spiral/Light"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o25_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Corner - Curtain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o26_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Stairs - Down, Spiral"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o25_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Stairs - Down, Spiral/Light"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o25_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Room - Round"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_n21_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Room - Round, Light"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_n21_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Alcove - Simple"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o27_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Alcove - Grass"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o27_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Alcove - Light"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o27_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Stairs - Down, Short"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o28_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Stairs - Up, Short"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o28_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Stairs - Down, Long"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o28_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Tree - Giant"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o29_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Tree - Medium"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o29_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Tree - Medium, Walkable"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o29_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Corner - Curtain, Table"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_o26_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Exit - Grass"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_p25_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Alcove - Couch"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_n22_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Alcove - Couch/Light"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_n22_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Room - Round, Couch"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_n21_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Room - Round, Couch/Light"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_n21_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Corner - Curtain, Couch"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_n23_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Alcove - Platform, Couch/Light"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_n24_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Alcove - Platform, Couch"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_n24_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Stairs - Both, Spiral"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_n25_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Workshop] Stairs - Both, Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_f21_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Workshop] Stairs - Up, Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_f21_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Workshop] Stairs - Down, Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_f21_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Workshop] Exit - Corner 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_f21_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Workshop] Exit - Corner 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_f21_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Workshop] Smelter"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_f31_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Workshop] Smithy"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_f21_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Portal - Living Room"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Portal - Kitchen"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_a01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Portal - Shop"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_a01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Portal - Home"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_a01_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Portal - Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_a01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Portal - Grass"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_a01_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Workshop] Portal"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_a01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Chessboard - Kitchen"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_b01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Chessboard - Inn"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_b01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Chessboard - Shop"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_b01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Chessboard - Home"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_b01_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Chessboard - Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_b01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Chessboard - Grass"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_b01_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Workshop] Chessboard"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztall_b01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Corner - Spiral"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_b41_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Window 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_c41_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Window 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_c42_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Corridor - Entry"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_f48_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Corridor - Stairs Up"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_f42_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Corridor - Stairs Down"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_f42_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Portal"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_m40_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Counter - Normal"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_m43_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Counter - Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_m43_02"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Living Room 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_e04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Living Room 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_e07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Kitchen 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_g04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Kitchen 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_g07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Inn 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_i04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Inn 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_i07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Shop 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_m04_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Shop 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_m07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Home - Lower 1 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_q02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Home - Upper 1 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_q04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Home - Upper 2 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_s04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Home - Lower 2 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_s02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Home - Lower 3 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_q02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Home - Lower 4 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_s02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Home - Lower 5 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_s02_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Home - Upper 3 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_q04_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Tent (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_q18_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Barracks (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_w15_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Temple Evil (4x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_q08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Temple Good (4x4)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_q12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Temple Neutral (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_u18_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Wizards Den (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_s18_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Smithy (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_v15_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Barn (3x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_q16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Bordello (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_s16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Slum House 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_u02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Slum House 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_u04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Shop 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_m04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Interior - Shop 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tin01_m07_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Living Room 1, Window (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_e04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Living Room 2, Window (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_e07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Kitchen 1, Window (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_g04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Kitchen 2, Window (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_g07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Room - Inn 2, Window (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_i07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Pool (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_p21_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Pool - Trees (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_p21_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Room - Tree (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_p22_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Room - Tree, Table (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_p23_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Room - Tree, Table/Lights (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_p23_14"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Tree House - Grass, Window (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_p24_24"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Tree House - Grass (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_p24_34"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Room - Oval, Grass (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_p24_14"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Door - Main (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_d47_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Corner - Snug 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_d46_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Corner - Snug 2 (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_d43_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Bar (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_d50_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Doorway 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_e41_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Doorway 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_d42_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Arena (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zin01_m50_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[All] Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Living Room"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Livingroom"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Kitchen"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Kitchen"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Inn"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Inn"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Shop"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Shop"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[City] Home"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Home"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ElvenFloor"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Platform"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ElvenPlatform"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Grass"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ElvenGrass"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Workshop] Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Workshop"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "SigilFloor"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[All] Corridor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Corridor"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[All] Window"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Window"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[All] Doorway"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Doorway"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Elven] Hallway"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ElvenHallway"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sigil] Hallway"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "SigilHallway"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "(Eraser)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

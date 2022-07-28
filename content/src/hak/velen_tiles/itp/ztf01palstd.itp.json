@@ -1,0 +1,1860 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Bridge, Pit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_h07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Gate 1, Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_i07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Gate 2, Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_i07_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge - Stream 1, Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_j07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge - Stream 2, Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_j07_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruin"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Camp"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Graveyard"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s18_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Exit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_p12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Webbed Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_p13_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Webbed Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_p14_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree - Big 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_p15_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Ruined"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_p18_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Chessboard"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_b01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Portal - Platform"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Main Door, Evil"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_e16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Main Door, Good"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_e06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Small Door, Evil"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_e17_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Small Door, Good"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_e07_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Breach, Good"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_e07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Breach, Evil"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_e17_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Archer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w21_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Archer, Forest Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w21_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Archer, Forest Wall Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w21_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ramp"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_h17_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cave"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_r10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Breach, City/Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o20_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Door, City/Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o21_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Tower 1, City/Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o23_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Tower 2, City/Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o24_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Tower 1, City/Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o23_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Tower 2, City/Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o24_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Turf"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wagon - Caravan 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wagon - Caravan 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Breach, City/Cobbles"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o20_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Door, City/Cobbles"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o21_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Tower 1, City/Cobbles"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o23_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Tower 2, City/Cobbles"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o24_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ramp - City Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Ruined"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_s10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ramp - Moss Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o12_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Breach, Moss"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o20_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Door, Moss"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o21_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall Chunk"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_p10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building - Destroyed 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_p12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree - Big 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_p15_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Bridge, Rural Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_k17_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge - Footbridge, Rural Stream"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_g17_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - House 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w51_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Guard, Pit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w54_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Pillar 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_v57_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Elevator, Upper"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_v58_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Cliff Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_v59_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Pillar 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_v61_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - House 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w60_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Plaza"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_v65_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Elevator, Lower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_v68_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree - Hollow 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_p07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Rock Formation"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_p06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cobbles"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tcn01_a20_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Crystal - Big"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_c35_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sphere"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_c36_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Portal - Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a36_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Crystal - Platform"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b31_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Fountain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b31_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Menhir"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b33_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Gate, Ruin"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_h37_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building - Burned"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_p35_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Entrance - Dungeon"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a81_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Stone"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a83_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs - Cliff"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_x89_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stairs - Pit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_x89_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Market"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_q82_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Small 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_t87_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Small 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a85_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Small 3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a86_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree - Hollow 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_p07_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree - Giant"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_p15_02"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruin 1 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruin 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple - Forest (3x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Shack 1 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Shack 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Lodge (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Camp 1 - Deciduous (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s14_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Camp 2 - Deciduous (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s15_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Graveyard (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_s17_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Exit 1 (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_o09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Exit 2 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_o11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Meeting Area (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_o16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Grove 1 (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ttf01_o07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple - Good (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_u13_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Cloak (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_u06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Turf (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_u08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Ruined (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_s16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "City Gate - Forest (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o27_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple - Neutral (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_u10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Barracks (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_u04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Guard, Forest (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_u02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple - Evil (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_u15_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Wizard (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_u01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "City Gate - Cobbles (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_o27_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ruined Park (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_s17_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Camp 1 - Coniferous (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_s14_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Camp 2 - Coniferous (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_s11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Cliff Section (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_y53_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Building (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_y59_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Guard, Pit (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w53_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Platform - Plaza (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_v79_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Small (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_k02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship - Air, Above Pit (3x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a43_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship - Air, Docked (3x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a43_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge - Pit (1x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a32_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Island (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a33_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Elven 1 (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a34_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge - Forest Water (1x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a35_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cave - Cliff (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a37_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Treehouse 2 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a38_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cave - Hill (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b34_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Elven 2 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b35_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Elven 3 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b36_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Elven 4 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b37_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple - Elven 1 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b38_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Elven (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b39_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Plaza - Elven (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b40_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Treehouse 3 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b32_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple - Elven 2 (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_c32_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Gate - Cliff (1x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_c33_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building - State, Ruined (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_w36_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Building - Destroyed 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_q30_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Barracks (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_s88_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Archer Platform (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_s89_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Smithy (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b85_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tree - Giant (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_b86_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge - Log (1x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a87_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge - Rickety (1x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_a88_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "House - Treehouse 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ztf01_s10_02"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Cliff"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63639
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Forest"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63640
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Pit"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63460
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Good"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "GoodCastle"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Evil"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "EvilCastle"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Water - Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Water"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Marsh"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Marsh"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "High Platform"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Platform"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "High Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "HighForest"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Trees"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RuralTrees"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Water - Rural"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RuralWater"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Road"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63641
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stream - Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Stream"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge - Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Bridge"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "DLA Edge Fix"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "DlaEdgeFix"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Slope"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Slope"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge - Stone"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "StoneBridge"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stream - Rural"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RuralStream"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Moss"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "MossWall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - City"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "CityWall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Ruin"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RuinWall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Rural 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RuralWallOne"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Rural 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RuralWallTwo"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "(Eraser)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "(Raise/Lower)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

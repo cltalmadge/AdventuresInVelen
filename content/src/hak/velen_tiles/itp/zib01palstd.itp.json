@@ -1,0 +1,760 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Alcove, Blood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - I, Blood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - L, Blood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - T, Blood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a15_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - X, Blood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Alcove, Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a07_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - I, Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a09_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - L, Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a12_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - T, Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a15_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - X, Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a16_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Alcove, Sewer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a07_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - I, Sewer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a09_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - L, Sewer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a12_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - T, Sewer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a15_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - X, Sewer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a16_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Alcove, Urine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a07_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - I, Urine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a09_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - L, Urine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a12_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - T, Urine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a15_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - X, Urine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a16_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - Alcove, Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a07_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - I, Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a09_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - L, Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a12_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - T, Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a15_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door - X, Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_a16_41"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Big, Lava"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tib01_n05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pit, Lava"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tib01_c02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pillar, Lava"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tib01_c02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Big, Blood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_n05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pit, Blood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_c02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pillar, Blood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_c02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Big, Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_n05_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pit, Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_c02_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pillar, Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_c02_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Big, Sewer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_n05_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pit, Sewer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_c02_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pillar, Sewer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_c02_22"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Big, Urine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_n05_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pit, Urine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_c02_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pillar, Urine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_c02_32"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Big, Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_n05_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pit, Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_c02_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Room - Pillar, Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zib01_c02_42"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[All] Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Room - Lava"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Room"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Room - Blood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RoomBlood"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Room - Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RoomMagic"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Room - Sewer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RoomSewer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Room - Urine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RoomUrine"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Room - Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RoomWater"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Room - Ice"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RoomIce"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Room - Black"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "RoomBlack"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Corridor - Lava"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Corridor"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Door"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Corridor - Blood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "CorridorBlood"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Corridor - Magic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "CorridorMagic"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Corridor - Sewer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "CorridorSewer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Corridor - Urine"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "CorridorUrine"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Corridor - Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "CorridorWater"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Corridor - Ice"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "CorridorIce"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Beholder] Corridor - Black"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "CorridorBlack"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Chult] Doorway"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ChultDoorway"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Chult] Corridor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ChultCorridor"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "(Eraser)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

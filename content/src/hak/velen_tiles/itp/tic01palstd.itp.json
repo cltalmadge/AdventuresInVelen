@@ -1,0 +1,1013 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Storage"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_c01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Bedroom"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_e01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Library"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_g01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Jail"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_i01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Stone"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_k01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Storage 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_o09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Storage 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_o10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Rich 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_p09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Rich 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_p10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Library 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_q09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Library 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_q10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Jail 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_o13_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Jail 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_o14_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Stone 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_p13_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Stone 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_p14_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Stairs - Up"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_o16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Stairs - Down"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_p16_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Exit - Corridor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_l07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Chessboard"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_b01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Portal"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Exit - Corridor, Big"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_l07_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Fountain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_k09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Bath"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_e09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Door - Transition"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_z20_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Round Corner - Empty, Rich"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_a21_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Round Corner - Empty, Library"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_b21_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Round Corner - Empty, Stone"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_c21_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Round Corner - Decorated, Library"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_b22_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Round Corner - Decorated, Rich"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_a22_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Round Corner - Decorated, Stone"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_c22_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Stairs - Up, Stone Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_c23_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Stairs - Up, Library Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_b23_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Stairs - Up, Rich Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_a23_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Stairs - Down, Library Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_b24_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Stairs - Down, Rich Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_a24_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Stairs - Down, Stone Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_c24_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Library, Empty"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_g61_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Storage, Empty"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_c61_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Round Corner - Window, Library"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_f31_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Bedroom, Windowed"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_e31_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Jail, Windowed"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_i31_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Window - Arrow Loops, Stone"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_j32_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Dais"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_j30_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Maze] Door - End 1, Mosaic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_d51_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Maze] Door - End 2, Mosaic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_d51_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Maze] Door - Side, Mosaic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_d52_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Maze] Door - End 1, Marble"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_d51_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Maze] Door - Side, Marble"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_d52_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Bedroom, Walkable Bed"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_e01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Bedroom, Empty"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_e01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tower] Door - Corner, Brown"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_a83_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tower] Stairs - Up, Brown"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_b81_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tower] Stairs - Down, Brown"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_b82_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tower] Door - Wall, Brown"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_d82_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tower] Door - Corner, Grey"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_m83_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tower] Stairs - Up, Grey"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_n81_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tower] Stairs - Down, Grey"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_n82_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tower] Door - Wall, Grey"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_p82_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Storage 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_c04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Storage 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_c07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Bedroom 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_e04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Bedroom 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_e07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Library 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_g04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Library 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_g07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Jail 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_i04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Jail 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_i07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Stone 1 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_k04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Stone 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tic01_k07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Storage, Empty (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_c67_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Turret Interior - Lit (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_k31_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Windowed Bedroom (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_e37_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Turret Interior - Dark (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_k31_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Bath 1 (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_k08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Room - Bath 2 (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zic01_k08_02"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[All] Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Storage"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Storage"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Rich"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Rich"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Library"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Library"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Jail"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Jail"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Stone"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Stone"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tower] Floor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Tower"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Corridor"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Corridor"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle] Doorway"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Doorway"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[All] Window"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Window"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Maze] Mosaic"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "MazeMosaic"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Maze] Marble"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "MazeMarble"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "(Eraser)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

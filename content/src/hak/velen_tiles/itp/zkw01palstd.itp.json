@@ -1,0 +1,573 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Tower - Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_f10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Bridge - Broken"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_f11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Bridge - Into Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_f12_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Door - Bridge"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_f13_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Arch - Ruined"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_f18_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Tower - Sunken"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_f18_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Door - Bridge, Pit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_h27_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Wall - Gate 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_i27_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Wall - Gate 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_i27_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Bridge - Stream 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_j27_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Bridge - Stream 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_j27_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Ruin"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s24_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Camp"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s36_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Graveyard"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s38_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Exit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_p32_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Webbed Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_p33_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Webbed Corner"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_p34_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Tree - Big 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_p35_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Tower - Ruined"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_p38_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Tower - Black (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_f09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Statue - Ilmater (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_f14_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] House - Over Water (2x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_f19_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Temple (2x2) {broken}"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_w04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Ruin 1 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s22_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Ruin 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s23_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Temple - Jungle (3x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s27_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] House - Shack 1 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s29_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] House - Shack 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s30_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Lodge (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s32_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Camp 1 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s34_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Camp 2 (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s35_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Graveyard (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_s37_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Exit 1 (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_o29_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Exit 2 (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_o31_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Meeting Area"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_o36_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Grove 1 (3x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zkw01_o27_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Water - Shallow"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "SwampWater"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Ground"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "SwampGround"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Swamp] Water - Deep"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "SwampPit"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Cliff"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "JungleCliff"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Ground"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "JungleGround"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Pit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "JunglePit"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[All] Bridge"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Bridge"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[All] Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Stream"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Stream"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Jungle] Road"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "Road"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "(Eraser)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Chessboard"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_b01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Portal"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tall_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Main Door, Evil"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_c06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Breach, Evil"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_c07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Small Door, Evil"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_c07_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cave"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_j02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ramp"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_j01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Entrance - Evil"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_j05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ice Creator"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_a09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Market 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_n07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Market 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_n06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Crystal"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_j04_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dragon Skeleton (1x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_j03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple - Evil 1 (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_l06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple - Neutral (2x2)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_l03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Temple - Evil 2 (2x3)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tti01_l09_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship - Air, Above Pit (3x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zti01_a43_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship - Air, Docked (3x1)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zti01_a43_23"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tower - Ice"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "zti01_a51_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Pit"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63460
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "Floor"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63459
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle - Evil"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "EvilCastle"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "(Eraser)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "(Raise/Lower)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}
