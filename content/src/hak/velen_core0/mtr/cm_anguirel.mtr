@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 cm_anguirel
+texture1 cm_anguirel_n
+texture2 cm_anguirel_s

@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 twinkle
+texture1 twinkle_n
+texture2 twinkle_s

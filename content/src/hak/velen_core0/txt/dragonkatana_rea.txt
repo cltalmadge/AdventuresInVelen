@@ -1,0 +1,36 @@
+Dragon katana by Claude <c.lanaud@wanadoo.fr>
+
+This is a katana created for my game character. I keep the bases of the katana n°11 of the CEP, modify the blade, and created handle by myself from the Vampire Bloodlines katana handle.
+
+Model: 
+bottom: 42 vertices, 54 faces
+middle: 136 v, 232 f (detailed head and guard, few visible yet, unless when camera is focused on.)
+top: 28 v, 42 f
+
+Texture:
+swka5.tga: 512*512*4 tga, model texture (1Mb heavy, for details)
+iwswgs_#.tga: 64*128*4 tga, item icons
+
+Credits:
+-CEP katana n°11 for getting the dimensions of the model, the base of the blade, and the icons
+-Troïka Games for the original textures
+-Neverblender import script
+
+Programms:
+modeler: Blender3D (www.blender.org)
+texture: Paint Shop Pro 5
+exporter: MDLexporterv0.14 (selfmade python script)
+
+Troubles:
+-middle and bottom (handle parts) are made to be used together.
+
+Version:
+1.00
+-Possible to reduce details on middle parts and making the handle parts compatible with others NWN models
+-Possible texture resizing
+
+Model and textures free of use or modifiy. Include credits when using it in your mods or hakpak.
+
+Others models on NWNVault:
+FAKK2chainsaw
+JadeNWN

@@ -1,0 +1,4 @@
+renderhint NormalAndSpecMapped
+texture0 cm_bulwark
+texture1 cm_bulwark_n
+texture2 cm_bulwark_s

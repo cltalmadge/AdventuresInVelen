@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 icingdeath
+texture1 icingdeath_n
+texture2 icingdeath_s

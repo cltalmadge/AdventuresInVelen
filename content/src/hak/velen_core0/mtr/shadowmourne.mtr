@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 shadowmourne
+texture1 shadowmourne_s
+texture2 shadowmourne_n

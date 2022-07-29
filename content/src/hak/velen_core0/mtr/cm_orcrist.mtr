@@ -1,0 +1,4 @@
+renderhint NormalAndSpecMapped
+texture0 cm_orcrist
+texture1 cm_orcrist_n
+texture2 cm_orcrist_s

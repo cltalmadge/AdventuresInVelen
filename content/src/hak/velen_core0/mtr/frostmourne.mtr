@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 frostmourne
+texture1 frostmourne_n
+texture2 frostmourne_s
