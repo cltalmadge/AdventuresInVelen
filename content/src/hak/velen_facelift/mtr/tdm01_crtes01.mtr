@@ -1,0 +1,9 @@
+renderhint NormalAndSpecMapped
+ 
+// Textures 
+texture0 tdm01_crtes01_d
+texture1 tdm01_crtes01_n
+texture2 tdm01_crtes01_s
+texture3 tdm01_crtes01_r
+texture4 tdm01_crtes01_h
+texture5 null

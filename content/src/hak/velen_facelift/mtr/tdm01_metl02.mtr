@@ -1,0 +1,10 @@
+ 
+renderhint NormalAndSpecMapped
+ 
+// Textures 
+texture0 tdm01_metl02_d
+texture1 tdm01_metl02_n
+texture2 tdm01_metl02_s
+texture3 tdm01_metl02_r
+texture4 tdm01_metl02_h
+texture5 null

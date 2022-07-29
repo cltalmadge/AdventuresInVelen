@@ -1,0 +1,10 @@
+ 
+renderhint NormalAndSpecMapped
+ 
+// Textures 
+texture0 tdm01_floorg03_d
+texture1 tdm01_floorg03_n
+texture2 null
+texture3 tdm01_floorg03_r
+texture4 tdm01_floorg03_h
+texture5 null

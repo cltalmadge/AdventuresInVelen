@@ -1,0 +1,13 @@
+customshadervs vslit_nm
+customshaderfs fslit_nm 
+renderhint NormalAndSpecMapped
+ 
+// Textures 
+texture0 tdm01_metl01_d
+texture1 tdm01_metl01_n
+texture2 tdm01_metl01_s
+texture3 tdm01_metl01_r
+texture4 tdm01_metl01_h
+texture5 null
+
+parameter float DisplacementOffset 0.5

@@ -1,0 +1,10 @@
+ 
+renderhint NormalTangents 
+ 
+// Textures 
+texture0 ttz01_grass02_D 
+texture1 ttz01_grass02_N
+texture2 null 
+texture3 ttz01_grass02_R 
+texture4 ttz01_grass02_H 
+texture5 null 

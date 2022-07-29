@@ -1,0 +1,15 @@
+customshadervs vslit_nm
+customshaderfs fslit_nm
+
+renderhint NormalAndSpecMapped
+ 
+// Textures 
+texture0 tdm01_crystal_d
+texture1 tdm01_crystal_n
+texture2 null
+texture3 tdm01_crystal_r
+texture4 tdm01_crystal_h
+texture5 null
+
+parameter float Metallicness 0.001
+parameter float Specularity 0.12
