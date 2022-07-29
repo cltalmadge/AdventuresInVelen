@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 gem_pink 
+texture1 gem_pink_n 
+texture2 gem_pink_s 
+texture3 null 
+texture4 null 

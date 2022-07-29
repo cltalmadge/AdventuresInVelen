@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ashsw_03 
+texture1 ashsw_03_n 
+texture2 ashsw_03_s 
+texture3 null 
+texture4 null 

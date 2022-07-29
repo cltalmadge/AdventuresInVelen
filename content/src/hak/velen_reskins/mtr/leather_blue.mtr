@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 leather_blue 
+texture1 leather_blue_n 
+texture2 leather_blue_s 
+texture3 null 
+texture4 null 

@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ad_greenmetal 
+texture1 ad_greenmetal_n 
+texture2 ad_greenmetal_s 
+texture3 null 
+texture4 null 

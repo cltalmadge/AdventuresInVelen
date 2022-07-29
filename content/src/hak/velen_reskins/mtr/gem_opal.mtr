@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 gem_opal 
+texture1 gem_opal_n 
+texture2 gem_opal_s 
+texture3 null 
+texture4 null 

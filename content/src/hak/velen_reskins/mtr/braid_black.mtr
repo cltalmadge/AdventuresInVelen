@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 braid_black 
+texture1 braid_black_n 
+texture2 braid_black_s 
+texture3 null 
+texture4 null 

@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ad_stl_nal 
+texture1 ad_stl_nal_n 
+texture2 ad_stl_nal_s 
+texture3 null 
+texture4 null 

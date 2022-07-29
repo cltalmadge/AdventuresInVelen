@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ad_fletch_blu 
+texture1 ad_fletch_blu_n 
+texture2 ad_fletch_blu_s 
+texture3 null 
+texture4 null 

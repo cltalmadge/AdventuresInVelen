@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 gem_bluetopaz 
+texture1 gem_bluetopaz_n 
+texture2 gem_bluetopaz_s 
+texture3 null 
+texture4 null 

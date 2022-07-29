@@ -1,0 +1,148 @@
+#MAXMODEL ASCII
+# model: WSwLs_fxelect
+filedependancy WSwLs_fxelect.max
+newmodel WSwLs_fxelect
+setsupermodel WSwLs_fxelect NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom WSwLs_fxelect
+node dummy WSwLs_fxelect
+  parent NULL
+endnode
+node emitter g_WSwGs_V_Elec_b
+  parent WSwLs_fxelect
+  p2p 1
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Linked
+  blend Lighten
+  texture fxpa_lightning2
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.540849 0.0106099
+  orientation 0 0 0 0
+  colorStart 1 1 1
+  colorEnd 0.572549 0.643137 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.05
+  sizeEnd 0.3
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 20
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 12
+  xsize 4
+  ysize 80
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0.05
+  lightningRadius 0.05
+  lightningScale 0.5
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 10
+  drag 0.2
+  grav 0
+  threshold 0
+endnode
+node reference g_WSwGs_V_Elec_b_ref
+  parent g_WSwGs_V_Elec_b
+  refModel fx_ref
+  reattachable 1
+  position 0 0.408939 0
+  orientation 0 0 0 0
+endnode
+node emitter g_WSwGs_V_Elec
+  parent WSwLs_fxelect
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Lightning
+  render Linked
+  blend Lighten
+  texture fxpa_lightning2
+  xgrid 2
+  ygrid 2
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0 0.143713 0.00530496
+  orientation 1 -5.37667e-07 0 -1.5708
+  colorStart 1 1 1
+  colorEnd 0.545098 0.976471 0.737255
+  alphaStart 0.75
+  alphaEnd 0.5
+  sizeStart 0.1
+  sizeEnd 0.075
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 0
+  birthrate 5
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 200
+  velocity 0
+  randvel 0
+  fps 0
+  xsize 1
+  ysize 10
+  bounce_co 0
+  blurlength 10
+  lightningDelay 0.09
+  lightningRadius 0.045
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+endnode
+node reference g_WSwGs_V_Elec_ref
+  parent g_WSwGs_V_Elec
+  refModel fx_ref
+  reattachable 1
+  position -0.00832383 -0.00485159 0.798189
+  orientation -1 3.31644e-07 -2.13432e-07 -3.14159
+endnode
+endmodelgeom WSwLs_fxelect
+
+donemodel WSwLs_fxelect

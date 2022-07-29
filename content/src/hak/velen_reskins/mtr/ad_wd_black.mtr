@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 ad_wd_black 
+texture1 ad_wd_black_n 
+texture2 ad_wd_black_s 
+texture3 null 
+texture4 null 

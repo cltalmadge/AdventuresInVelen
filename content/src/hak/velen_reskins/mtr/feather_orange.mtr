@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 feather_orange 
+texture1 feather_orange_n 
+texture2 feather_orange_s 
+texture3 null 
+texture4 null 

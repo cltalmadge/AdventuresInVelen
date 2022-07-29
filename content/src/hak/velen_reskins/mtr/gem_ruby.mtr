@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 gem_ruby 
+texture1 gem_ruby_n 
+texture2 gem_ruby_s 
+texture3 null 
+texture4 null 
