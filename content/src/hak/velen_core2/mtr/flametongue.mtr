@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 flametongue
+texture1 flametongue_n
+texture2 flametongue_s

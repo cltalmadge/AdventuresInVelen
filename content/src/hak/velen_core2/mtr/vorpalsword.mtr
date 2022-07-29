@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 vorpalsword
+texture1 vorpalsword_n
+texture2 vorpalsword_s

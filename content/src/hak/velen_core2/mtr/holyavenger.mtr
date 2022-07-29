@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 holyavenger
+texture1 holyavenger_n
+texture2 holyavenger_s

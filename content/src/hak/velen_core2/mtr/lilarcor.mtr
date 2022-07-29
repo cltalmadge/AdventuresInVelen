@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 lilarcor
+texture1 lilarcor_n
+texture2 lilarcor_s

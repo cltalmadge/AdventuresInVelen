@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 nwnsword
+texture1 nwnsword_n
+texture2 nwnsword_s

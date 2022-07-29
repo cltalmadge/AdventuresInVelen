@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 blackrazor
+texture1 blackrazor_n
+texture2 blackrazor_s
