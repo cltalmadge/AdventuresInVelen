@@ -1,0 +1,25 @@
+# Exported from NWmax 0.8 b54 at 10/2/2021 5:12:25 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh sh_tablelong_wg
+  parent sh_tablelong_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.0156863 0.0156863 
+  bitmap NULL
+  verts 4
+    2.70002 0.6 0.0
+    -2.7 0.6 0.0
+    2.69998 -0.6 0.0
+    -2.7 -0.6 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode
+node dummy sh_tablelong_pwk_use01
+  parent sh_tablelong_pwk
+  position 0.0 0.0 0.1
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.423529 0.0313726 0.533333 
+endnode

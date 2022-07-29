@@ -1,0 +1,31 @@
+# Exported from NWmax 0.8 b54 at 5/4/2020 2:15:02 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh sh_wallbase_wg
+  parent sh_wallbase_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.0156863 0.0156863 
+  bitmap NULL
+  verts 4
+    -1.25 -0.5 0.0
+    1.25 -0.5 0.0
+    -1.25 0.5 0.0
+    1.25 0.5 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode
+node dummy wallbase_pwk_use01
+  parent sh_wallbase_pwk
+  position 0.0 -0.25 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode
+node dummy wallbase_pwk_use02
+  parent sh_wallbase_pwk
+  position 0.0 0.25 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.52549 0.227451 
+endnode

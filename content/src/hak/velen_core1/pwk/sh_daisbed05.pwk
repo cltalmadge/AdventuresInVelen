@@ -1,0 +1,25 @@
+# Exported from NWmax 0.8 b54 at 10/2/2021 4:41:53 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh sh_beddais_wg
+  parent sh_beddais_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.0156863 0.0156863 
+  bitmap NULL
+  verts 4
+    3.03187 3.03309 0.0
+    -3.03671 3.03309 0.0
+    3.03187 2.46326 0.0
+    -3.03671 2.46326 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode
+node dummy sh_beddais_pwk_use01
+  parent sh_beddais_pwk
+  position 0.0 0.0 0.1
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.341176 0.878431 0.560784 
+endnode

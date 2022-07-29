@@ -1,0 +1,19 @@
+# Exported from NWmax 0.8 b54 at 11/11/2020 1:45:10 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh unwalkable
+  parent ori_n01_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.52549 0.0235294 0.0235294 
+  bitmap NULL
+  verts 4
+    -0.979438 -0.0704225 0.0
+    0.1 -0.0704225 0.0
+    -0.979438 0.0704225 0.0
+    0.1 0.0704225 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode

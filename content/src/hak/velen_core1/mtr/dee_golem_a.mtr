@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 dee_golem_a 
+texture1 dee_golem_a_n 
+texture2 dee_golem_a_s 
+texture3 null 
+texture4 null 
