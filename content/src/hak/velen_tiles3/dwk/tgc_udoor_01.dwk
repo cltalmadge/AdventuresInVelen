@@ -1,0 +1,114 @@
+#MAXDOOR ASCII
+# model: tgc_UDoor_01_DWK 
+filedependancy drawbridge.max
+node dummy 01_DWK_dp_closed_01 
+  parent tgc_UDoor_01_DWK 
+  position 0.0 2.64887 0.0
+  orientation  0.0 0.0 1.0  -1.5708
+  wirecolor 0.541176 0.0313726 0.431373  
+endnode
+node dummy 01_DWK_dp_closed_02 
+  parent tgc_UDoor_01_DWK 
+  position 0.384908 -4.90181 0.0
+  orientation  0.0 0.0 1.0  -1.5708
+  wirecolor 0.541176 0.0313726 0.431373  
+endnode
+node dummy 01_DWK_dp_open1_01 
+  parent tgc_UDoor_01_DWK 
+  position -0.205265 -4.90181 0.0
+  orientation  0.0 0.0 1.0  -1.5708
+  wirecolor 0.541176 0.0313726 0.431373  
+endnode
+node dummy 01_DWK_dp_open1_02 
+  parent tgc_UDoor_01_DWK 
+  position 0.246527 2.7206 0.0
+  orientation  0.0 0.0 1.0  -1.5708
+  wirecolor 0.541176 0.0313726 0.431373  
+endnode
+node trimesh 01_DWK_wg_open2 
+  parent tgc_UDoor_01_DWK 
+  position -3.6677 -1.95012 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.333333 0.109804 0.694118  
+    bitmap NULL
+    verts 8
+     -1.00195 -2.27527 0.0
+     1.00195 -2.27527 0.0
+     -1.00195 2.27527 0.0
+     1.00195 2.27527 0.0
+     -1.00195 -2.27527 5.0
+     1.00195 -2.27527 5.0
+     -1.00195 2.27527 5.0
+     1.00195 2.27527 5.0
+    faces 12
+     0 2 3  2  0 0 0  7
+     3 1 0  2  0 0 0  7
+     4 5 7  4  0 0 0  7
+     7 6 4  4  0 0 0  7
+     0 1 5  8  0 0 0  7
+     5 4 0  8  0 0 0  7
+     1 3 7  16  0 0 0  7
+     7 5 1  16  0 0 0  7
+     3 2 6  32  0 0 0  7
+     6 7 3  32  0 0 0  7
+     2 0 4  64  0 0 0  7
+     4 6 2  64  0 0 0  7
+endnode
+node trimesh 01_DWK_wg_closed 
+  parent tgc_UDoor_01_DWK 
+  position -3.66211e-006 0.0 2.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.0 1.0 0.0  
+    bitmap NULL
+    verts 8
+     2.25439 2.17317 -2.5
+     -2.25439 2.17317 -2.5
+     2.25439 -2.17317 -2.5
+     -2.25439 -2.17317 -2.5
+     2.25439 2.17317 2.5
+     -2.25439 2.17317 2.5
+     2.25439 -2.17317 2.5
+     -2.25439 -2.17317 2.5
+    faces 12
+     4 5 7  4  0 0 0  7
+     7 6 4  4  0 0 0  7
+     0 1 5  8  0 0 0  7
+     5 4 0  8  0 0 0  7
+     1 3 7  16  0 0 0  7
+     7 5 1  16  0 0 0  7
+     7 3 6  32  0 0 0  7
+     3 2 6  32  0 0 0  7
+     2 0 4  64  0 0 0  7
+     4 6 2  64  0 0 0  7
+     3 1 0  0  0 0 0  7
+     3 0 2  0  0 0 0  7
+endnode
+node trimesh 01_DWK_wg_open1 
+  parent tgc_UDoor_01_DWK 
+  position 3.66155 -1.95012 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.333333 0.109804 0.694118  
+    bitmap NULL
+    verts 8
+     -1.00195 -2.27527 0.0
+     1.00195 -2.27527 0.0
+     -1.00195 2.27527 0.0
+     1.00195 2.27527 0.0
+     -1.00195 -2.27527 5.0
+     1.00195 -2.27527 5.0
+     -1.00195 2.27527 5.0
+     1.00195 2.27527 5.0
+    faces 12
+     0 2 3  2  0 0 0  7
+     3 1 0  2  0 0 0  7
+     4 5 7  4  0 0 0  7
+     7 6 4  4  0 0 0  7
+     0 1 5  8  0 0 0  7
+     5 4 0  8  0 0 0  7
+     1 3 7  16  0 0 0  7
+     7 5 1  16  0 0 0  7
+     3 2 6  32  0 0 0  7
+     6 7 3  32  0 0 0  7
+     2 0 4  64  0 0 0  7
+     4 6 2  64  0 0 0  7
+endnode

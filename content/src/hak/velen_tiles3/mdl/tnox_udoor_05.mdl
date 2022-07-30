@@ -1,0 +1,145 @@
+#MAXMODEL ASCII
+# model: tnox_udoor_05
+filedependancy tnox_udoor_05.max
+newmodel tnox_udoor_05
+setsupermodel tnox_udoor_05 NULL
+classification DOOR
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom tnox_udoor_05
+node dummy tnox_udoor_05
+  parent NULL
+endnode
+node trimesh sam
+  parent tnox_udoor_05
+  ambient 0.200000003 0.200000003 0.200000003
+  diffuse 0.800000012 0.800000012 0.800000012
+  specular 0 0 0
+  shininess 1
+  shadow 0
+  bitmap NULL
+  verts 4
+    2.73316002 0.423204988 -0.542828023
+    -2.60732007 0.00998076983 -0.453767002
+    2.73412991 -0.513375998 -4.36162996
+    -2.60634995 -0.926600993 -4.27256012
+  faces 2
+    0 1 2 1 0 0 0 5
+    3 2 1 1 0 0 0 5
+  position -0.42998001 0.732559025 3.9419899
+  orientation 0 0 1 -0.331613004
+  alpha 0
+  scale 1
+  selfillumcolor 0 0 1
+endnode
+node dummy tnox_udoor_05head
+  parent tnox_udoor_05
+  position 0.0388231985 0.00394531013 2.59243011
+  orientation 0 0 0 0
+endnode
+node dummy tnox_udoor_05hhit
+  parent tnox_udoor_05
+  position 0.0388231985 0.00394531013 2.22034001
+  orientation 0 0 0 0
+endnode
+node dummy tnox_udoor_05impc
+  parent tnox_udoor_05
+  position 0.0388231985 0.00394531013 1.27815998
+  orientation 0 0 0 0
+endnode
+node dummy tnox_udoor_05grnd
+  parent tnox_udoor_05
+  position 0.0388231985 0.00394531013 0.0401131995
+  orientation 0 0 0 0
+endnode
+endmodelgeom tnox_udoor_05
+
+#MAXANIM ASCII
+newanim trans tnox_udoor_05
+  length 0.0333333015
+  transtime 0.25
+  animroot tnox_udoor_05
+  node dummy tnox_udoor_05
+    parent NULL
+  endnode
+  node dummy tnox_udoor_05_DWK
+    parent tnox_udoor_05
+  endnode
+  node dummy 06_DWK_dp_closed_02
+    parent tnox_udoor_05_DWK
+  endnode
+  node dummy 06_DWK_dp_closed_01
+    parent tnox_udoor_05_DWK
+  endnode
+  node dummy 06_DWK_wg_closed01
+    parent tnox_udoor_05_DWK
+  endnode
+  node trimesh sam
+    parent tnox_udoor_05
+    ambient 0.200000003 0.200000003 0.200000003
+    diffuse 0.800000012 0.800000012 0.800000012
+    specular 0 0 0
+    shininess 1
+    alphakey 2
+      0 0.25
+      0.0333333015 0.25
+  endnode
+  node dummy tnox_udoor_05head
+    parent tnox_udoor_05
+  endnode
+  node dummy tnox_udoor_05hhit
+    parent tnox_udoor_05
+  endnode
+  node dummy tnox_udoor_05impc
+    parent tnox_udoor_05
+  endnode
+  node dummy tnox_udoor_05grnd
+    parent tnox_udoor_05
+  endnode
+doneanim trans tnox_udoor_05
+
+#MAXANIM ASCII
+newanim default tnox_udoor_05
+  length 0.0333333015
+  transtime 0.25
+  animroot tnox_udoor_05
+  node dummy tnox_udoor_05
+    parent NULL
+  endnode
+  node dummy tnox_udoor_05_DWK
+    parent tnox_udoor_05
+  endnode
+  node dummy 06_DWK_dp_closed_02
+    parent tnox_udoor_05_DWK
+  endnode
+  node dummy 06_DWK_dp_closed_01
+    parent tnox_udoor_05_DWK
+  endnode
+  node dummy 06_DWK_wg_closed01
+    parent tnox_udoor_05_DWK
+  endnode
+  node trimesh sam
+    parent tnox_udoor_05
+    ambient 0.200000003 0.200000003 0.200000003
+    diffuse 0.800000012 0.800000012 0.800000012
+    specular 0 0 0
+    shininess 1
+    alphakey 2
+      0 0
+      0.0333333015 0
+  endnode
+  node dummy tnox_udoor_05head
+    parent tnox_udoor_05
+  endnode
+  node dummy tnox_udoor_05hhit
+    parent tnox_udoor_05
+  endnode
+  node dummy tnox_udoor_05impc
+    parent tnox_udoor_05
+  endnode
+  node dummy tnox_udoor_05grnd
+    parent tnox_udoor_05
+  endnode
+doneanim default tnox_udoor_05
+
+donemodel tnox_udoor_05

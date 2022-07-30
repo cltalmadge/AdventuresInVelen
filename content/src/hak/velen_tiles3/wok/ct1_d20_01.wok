@@ -1,0 +1,27 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+beginwalkmeshgeom CT1_d20_01
+node aabb wm
+  parent CT1_d20_01
+  position 0 0 2.5
+  orientation 0 0 0 0
+  wirecolor 0.835938 0.835938 0.835938
+  ambient 0.7 0.7 0.7
+  diffuse 0.7 0.7 0.7
+  specular 0.707 0.707 0.707
+  shininess 50
+  bitmap NULL
+  verts 4
+    5 5 0
+    -5 5 0
+    5 -5 0
+    -5 -5 0
+  faces 2
+    2 0 3  1  2 0 3  4
+    1 3 0  1  1 3 0  4
+  aabb     -5.00 -5.00 0.00   5.00 5.00 0.00   -1
+     -5.00 -5.00 0.00   5.00 5.00 0.00   1
+     -5.00 -5.00 0.00   5.00 5.00 0.00   0
+endnode
+endwalkmeshgeom CT1_d20_01
