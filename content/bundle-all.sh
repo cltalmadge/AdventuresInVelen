@@ -1,40 +1,38 @@
 #!/bin/bash
 pushd content/ || exit
+dir=$1
+# Exit if directory not exists
+if [ ! -d "$dir" ]; then
+    echo "Directory $dir does not exists"
+    exit 1
+fi
+# Check if directory has tlk and hak directories
+if [ ! -d "$dir/tlk" ] || [ ! -d "$dir/hak" ]; then
+    echo "Invalid installation. Directory $dir does not have tlk and hak directories"
+    exit 1
+fi
+
 mkdir velen_content/
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_top
-mv velen_top.hak velen_content 
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles8
-mv velen_tiles8.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles7
-mv velen_tiles7.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles6
-mv velen_tiles6.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles5
-mv velen_tiles5.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles4
-mv velen_tiles4.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles3
-mv velen_tiles3.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles2
-mv velen_tiles2.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles1
-mv velen_tiles1.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_robe
-mv velen_robe.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_plcs
-mv velen_plcs.hak velen_content 
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_cont
-mv velen_cont.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_ccoh
-mv velen_ccoh.hak velen_content
-docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_anim
-mv velen_anim.hak velen_content
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_2das
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_armors
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_core0
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_core1
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_core2
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_doors
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_facelift
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_phenos
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_portraits
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_reskins
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_skies
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_vfx
 docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/tlk/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes tlk
+mv ./*.hak velen_content
 mv velen.tlk velen_content
 zip -r velen_content.zip velen_content/**
 echo "Copying hak files to server..."
-sudo cp -R velen_content/*.hak /home/zoltan/velen_server/live-server/hak/
+sudo cp -R velen_content/*.hak "$1/hak/"
 echo "Copying tlk files to server..."
-sudo cp -R velen_content/*.tlk /home/zoltan/velen_server/live-server/tlk/
+sudo cp -R velen_content/*.tlk "$1/tlk/"
 rm -rf velen_content
 popd || exit
