@@ -1,0 +1,4647 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Spring_Tree_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Campfire 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Stream_Bridge 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_b02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Stream_Bridge2 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_b03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_House1_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_House2_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_House3_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Tree_Summer 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_BrokenTower 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Portal"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Chessboard"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Fountain"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_House1_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_House2_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_House3_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_13"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_HermitHSE_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_24"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Tree_Spring 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Tree_Fall 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_BrokenTower 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Tower 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_28"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_HollowTree_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_25"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Plain_Grass 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_s40_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Meadow_1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_s40_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Tower 2 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_29"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Tower 3 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_30"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Tower 1 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Tower 3 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_32"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Rocks 3 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l01_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Broken Arch 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l08_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Market _1 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l08_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Market_2 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Archway 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l08_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_GothArchway 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_m01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_GothArch 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_m01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Archway 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_m01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Med Tower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m58_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_tower4_1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m62_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Crypt 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m76_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Rock]_Cave 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf07_y95_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Rock]_Crypt Door 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf07_y89_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Rock]_Single Door 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf08_w44_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Rock]_High Stairs 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf07_y92_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Rock]_Wizards Tower 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf07_bmt_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Tower2_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_q90_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]Crypt_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_q90_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Willow Tree_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Apple Tree_A"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j03_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Apple Tree_B"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j03_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Cliff-Stairs"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf04_a11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Graveyard-A_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Graveyard-B_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sandy_Pit]_WLK_1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Windmill_1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Portal [Green]1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Portal_X_1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Graveyard-C_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Graveyard-D_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Graveyard-E_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Graveyard-F_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Graveyard-G_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Ruins_Stairs-1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j04_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Portal [Blue] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf12_s01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Crypt_E - 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j03_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Bridge]-[Water-Main]_Gate_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf11_n42_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_CobbleWall_Gate1_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_o06_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_CobbleWall_Gate2_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_o06_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Castle-High]_Stairs_1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_s09_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Sea_Cliff-Stairs 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_v86_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Chasm-Stairs 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_v86_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_FenceGateA_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_z08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_FenceGateB_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_z08_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_FenceGateC_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_z08_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_FishermanA_1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_v00_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_FishermanB_1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_v00_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Rock]_StreamCave 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf_a80_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Rock]_Lookout_Tower 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf_a80_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Old Well 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf40_n08_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Old Well 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf40_n08_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Well B 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_o06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Well B 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_o06_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Gallows 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_o07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Gallows 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_o07_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Tree_Winter 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Tree_Dead 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Pine_Tree 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Pine_Tree [Winter] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l02_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Gazebo 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Gazebo 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n05_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_NWGuard Tower 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_o05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_NWGuard Tower 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_o05_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Stables_A 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Stables_B 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n04_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Stables_B 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n14_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Stables_A 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n14_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Stream_Bridge 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf15_j07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Market-A 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Market-B 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n10_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Market-C 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Market-D 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n10_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Webbed_Trees_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_s13_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Webbed_Hole_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_s13_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Webbed_TreeHole_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_s13_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_FenceGate_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_z08_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone] _CobbleWall_Gate_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_o14_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Hobbit-HoleA_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Hobbit-HoleB_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_CornPatch A_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j01_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_CornPatch B_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j01_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Scarecrow_ 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_j01_14"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone] DLA Wall stable"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf41_o01_02"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Armor1_ 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_House4_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_WizardTower_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Barracks_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_i20_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Water-Sandy-Pit]_Carrack_4x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_i04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Big_House_ 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Big_House_ 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_l10_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Inn_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m38_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_House_2x2_Arcaded"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m29_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_house_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m40_13"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_House_2x2_2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m26_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Tower 2x2 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m71_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Mausoleum 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m75_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Inn_B_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m37_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Cave_2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf10_v01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Elder tree 4x4"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_FantasyTower 4x4"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m66_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sea_Cliffs]_Cave 2x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_v87_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Cliff-Exit 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf09_o11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Airship 3x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf05_a03_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Chasm]_Airship 3x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf05_a03_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Carrack [Water-Nowalk] 4x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf11_i04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Carrack [Water-Main] 4x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf11_s04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Evil_Temple 3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_a02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Evil_Temple2 3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_a02_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_LargeTemple 4x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_a02_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_GoodTemple 4x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_a02_27"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Church 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_a02_33"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Castle_Entrance_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_n40_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sand] PotSC_Shipwreck 3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf11_p01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Sand] Desert_Shipwreck_ 3x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf11_w24_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer] - Temple_3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf17_s07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Stables_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m27_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Haybarn_3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_m88_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_HouseN3 2x2 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf40_m03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_HouseN3 2x2 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf40_m13_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Arena 5x5"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf40_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_HouseRow1 2x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf40_m01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_HouseRow2 2x4"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf40_m02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Water-NoWalk]_Ghost Ship 7x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf42_n07_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_HouseN2 2x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf42_m05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_HouseN1 2x2 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf42_m06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Blacksmith 3x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_o04_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Summer]_Blacksmith 3x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_o04_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Cathedral 5x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_j01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Evil_Temple 3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf01_a02_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Moon_Bridge 7x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf12_a01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Slum_HouseB 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_p02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Slum_HouseA 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_p01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Slum_HouseC 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_p03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_BoatHouse-A 3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n03_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_BoatHouse-B 3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n02_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Crane [WtrNoWalk] 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n11_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Crane [SummerWater] 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_n11_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_NW-Crypt 3x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_p06_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[CarrackDock] [Water-Nowalk] 4x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf16_i01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship [A]_Docked 4x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_g01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cog_Docked 3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_f01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship [B]_Docked 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_e01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship_Weathered_Docked 3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_d01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ship_Merchant_Docked 3x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf14_c01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Cobblestone]_Castle_Entrance_1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wsf04_b02_01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "CobbleCity"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cobblecity"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Forest_Floor (Summer)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "forest_summer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Water (Main)-Summer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "water_summer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cobble [Forest_Floor]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "stonetop_summer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Meadow [Summer_Forest]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "meadow_summer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sand-Patch (Water)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sandy_patch"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sand ->Pit (Sand-Patch)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sandy_pit"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sand [Summer_Forest]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "sand"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Water [No-Walk]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "water_no_walk"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Water -> Pit (Water)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "water_summer_pit"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Chasm [Forest_Floor]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "pit"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle Keep (High)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "dla_castlehigh"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle Keep (Low)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "dla_castlelow"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sea_Cliffs [Forest_Floor]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "dla_cliffs"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Rock_Floor [level 0]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "stone0"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Rock_Hill [level 1]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "stone1"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Rock_Mountain [level 2]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "stone2"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Rock_Raise/Lower [level 3]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "stone3"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Rock_Water"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "water"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Thicket [Forest_Floor]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "trees"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cliffs [Forest_Floor]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cliff"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "City-Rocky Building"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "building_rock"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "City-Building"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "building"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sand-Building"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "building_sand"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "platform_tree"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "platform_tree"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "High_Forest"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "high_forest"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "platform_tree2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "platform_tree2"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Trail - Dirt"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "trail_summer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stream"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "stream_summer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cliffside (Raise/Lower)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cliffside_summer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall - Cobble"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wall_cobble"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Trail - Cobblestone"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cobble_trail"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Sea-Cliffs-Bridge"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bridge"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stream-Deep"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "stream-deep"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Bridge-Stone [Water]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "water_bridge"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Castle [Crosser]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "smallwall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Iron_Fence [Forest Floor]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "fence"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cobble_Crosser [Raise/Lower]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "city_crosser"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Dock [Water]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "dock"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "City-Building Alley (crosser)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "alley"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "City-Garden (crosser)"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "garden_crosser"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "wall_wood"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wall_wood"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "road_imp"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "road_imp"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "bridge_pit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bridge_pit"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63292
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 1
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "anfiteatro 4x4"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen03_c01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "cloaktower 2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen02_a01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "house01_2x3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen02_a02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "floating boat 1x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen02_a03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "bridge to the gate 1x5"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_b01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "sea house 2x3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_h01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "lighthouse 1x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_i01_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "fountain 3x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_k01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2house_04"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_m04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2house_sunkenf"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_n01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2lighthouse"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_n06_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2keep01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_n09_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "arena2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_o01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "ruingarden"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_o08_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2townhall"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_p04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2hollow"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_p05_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "airship01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_n21_14"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "BurnedBuilding_2x1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_q11_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Destroyed_1x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_q10_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "FlowerGarden_1x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_q09_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Fountain_1x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_q06_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "GiantTree_2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_o09_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "HolyPool_2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_q14_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "NeutralTemple_2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_w04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Plaza_2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_q04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "RuinedTower_2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_s16_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "GoodTemple_3x3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_w11_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "House02_2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_u04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "House03_2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_u18_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "House04_2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_u16_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "House05_2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_u08_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "House06_2x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_u06_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "House07_1x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_s11_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "House08_1x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_s13_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "House09_1x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_s14_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "House10_1x2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_s10_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "mulhouse1-summer"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen06_b01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "mulhouse2-summer"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen06_b02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "mulhouse3-summer"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen06_b03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "mulhouse4-summer"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen06_b04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "mulhouse5-summer"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen06_b05_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "multeather-summer"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen06_b06_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Oasis1_3x3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen08_u03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "joust_list"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_e20_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "joust_stand01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_a01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "joust_stand02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_a02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "joust_stand03"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_a03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "BarrowEntry_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_m17_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "BarrowEntry_san"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_m17_31"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "range_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_e11_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "mill_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_m73_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "sewerentry_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_m83_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "sewerentry_cit"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_m83_31"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "sewerentry_san"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_m83_41"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "inn_coach_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_m53_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "inn_coach_city"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_m53_31"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "caveentry_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_r10_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "caveentry_san"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_r10_31"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "castlegate01_cit"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_b02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "drawbridge_walkable"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_b11_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "cg_imp_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_b03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-sum-01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_a01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-sum-02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_a02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-sum-03"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_a03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-sum-04"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_a04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-sum-05"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_a05_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-san-01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen24_a01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-san-02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen24_a02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-san-03"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen24_a03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-san-04"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen24_a04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-san-05"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen24_a05_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-sum-11a"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_b01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-sum-12a"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_b02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-sum-13"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_b03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "w-sum-14"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_b04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "camp02-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "grove-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "shack1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "lodge1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c05_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "meetarea1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c06_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "camp3-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c07_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "clfent1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c08_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "gyard1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c11_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "elvenhouse1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen41_a04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "elventemple1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen41_c02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "elventreehouse1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen41_p19_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen41_a08_01"
+                    },
+                    "STRREF": {
+                      "type": "dword",
+                      "value": 63711
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "goblintree-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen41_a01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "hiddencave-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen41_a07_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Oldgate-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen41_c03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "elventreeisland-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen41_a03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "vik-wat-nw"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen40_d01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "vik-wat-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen40_d02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "vik-dock-nw"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen40_d05_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "vik-dock-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen40_d06_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "vik2-wat-nw"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen40_d09_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "vik2-wat-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen40_d10_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "for_treeGiant_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_e04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "for_treehouse_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_b02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_plaza2_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_v29_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_house3_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_y09_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_guardtow_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_w03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_cliffsection_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_y03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "airship02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_n21_14"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "airship03"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen06_n21_14"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "airship04"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen07_n21_14"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "caravel_nowlk"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen15_a03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "galleon_nowlk"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen15_v25_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "carrackS_nowlk"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen15_i04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "shp_board01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen16_v25_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plt2-elvenhall-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen52b_a01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plt2-elvenhouse-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen52a_f01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plt2-elvenwiztow-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen52a_a01_01"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63262
+              }
+            },
+            {
+              "__struct_id": 0,
+              "ID": {
+                "type": "byte",
+                "value": 0
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "statue01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_l01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "statue02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_l01_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "statue03"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_l01_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2plaza1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_n08_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2plaza2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_n08_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2plaza3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_n08_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2crane02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_n12_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "nwn2crane03"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_n12_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "elementalengine"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen04_o03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "BurnedBuilding"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_p05_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Construction"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_p06_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Destroyed01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_r12_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Destroyed03"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_q12_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "FlowerGarden"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_p04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Gazebo"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_o07_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "House"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_s05_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Plaza02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_r05_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "SewerEntrance01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_p07_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "SlumHouse01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_s01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "SlumHouse02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_s02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "SlumMarket01"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_q02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "SlumMarket02"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_r02_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "VegGarden"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_p03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Well"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen05_o06_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "stage01_cobble"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_m47_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "stage01_summer"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_m47_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "stones1_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_o51_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "stones2_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_o51_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "gravez1_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_o52_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "gravez2_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_o52_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "gravez3_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_o52_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "gravez4_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_o52_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "gravez5_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_o52_05"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "gravez6_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen09_o52_06"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "crystal_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_o07_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "crystal_san"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_o07_31"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "cryptz1_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_o12_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "cryptz2_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_o14_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "cryptz1_san"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_o12_31"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "cryptz2_san"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_o14_31"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "cryptz1_cit"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_o12_41"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "cryptz2_cit"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_o14_41"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "wwall_strm_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_g19_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "wwall_gt1_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_j17_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "wwall_gt2_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen10_h19_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "archtow_sum1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen12_c01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "archtow_sum2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen12_c01_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "archtow_sum3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen12_c01_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "rdhgt_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen12_d01_08"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "camp1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "camp1-san"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen24_c01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "for-Btree1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c09_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "clfent2-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c10_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "gyard2-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c11_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "cryst2-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_c21_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "for_elev_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_v08_91"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "for_portal_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_a06_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "for_towLOK_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_a03_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "chasm_tow_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_w04_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_elev_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_v08_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_cliffdoor_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_v09_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_house1_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_w01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_house2_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_w10_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_pillar1_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_v07_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_pillar2_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_v11_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plat_plaza1_sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen26_v15_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "waterNOWLK-walktile"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen15_xxx_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "sand_misc1"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen24_d01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "sand_misc2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen24_d01_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "sand_misc3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen24_d01_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "sum_misc3"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_d01_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "hunt01-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_e01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "hunt02-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_e01_02"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "hunt03-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_e01_03"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "hunt04-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen21_e01_04"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plt2-exit1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen52_g11_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plt2-market1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen52_s01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plt2-market2-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen52_t01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plt2-tree1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen52_u01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plt2-gaz1-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen52_x01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plt2-gaz2-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen52_y01_01"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "plt2-elvenhut-sum"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "sen52a_d01_01"
+                    }
+                  }
+                ]
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63261
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 4974
+        }
+      }
+    ]
+  }
+}

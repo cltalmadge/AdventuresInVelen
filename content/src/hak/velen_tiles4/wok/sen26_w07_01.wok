@@ -1,0 +1,26 @@
+#MAXWALKMESH  ASCII
+beginwalkmeshgeom sen26_w07_01
+node aabb wmesh
+  parent sen26_w07_01
+  orientation 0 0 0 0
+  wirecolor 0.527344 0.527344 0.527344
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 26
+  selfillumcolor 1 1 1
+  bitmap NULL
+  position 0 0 0
+  verts 4
+    5 -5 -6
+    5 5 -6
+    -5 5 -6
+    -5 -5 -6
+  faces 2
+    0 1 2 1 0 0 0 16
+    3 0 2 1 0 0 0 16
+  aabb     -5 -5 -6 5 5 -6 -1
+    -5 -5 -6 5 5 -6 1
+    -5 -5 -6 5 5 -6 0
+endnode
+endwalkmeshgeom sen26_w07_01

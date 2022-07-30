@@ -1,0 +1,452 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Castle high, Gate"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_s01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Castle high, Top stairs"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_s09_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Castle low, Outer door 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_n01_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Castle low, Outer door 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_n01_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Castle low, Raise gate"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_n01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Castle wall, breach"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_g25_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Castle wall, Side stairs"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_g29_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Low stone wall, Gate 1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_i02_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Low stone wall, Gate 2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_i02_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Watchtower"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_m72_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Watchtower, Grassy hill"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_km72_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Watchtower, Rocky hill"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_hm72_11"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Tower 1, 3x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_m65_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Tower 1, Grassy Hill, 3x3 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_km65_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Tower 1, Rocky hill, 3x3 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_hm65_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Tower 2, 3x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_m69_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Tower 2, Grassy hill, 3x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_km69_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Tower 2, Rocky hill, 3x3 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_hm69_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Fantasy Tower, 4x4"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkmtno_m66_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Round House 1, 2x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkm_rhouse_a01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Round House 1, Grassy hill, 2x3"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkm_rhouse_b01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Lake Fortress, 5x6"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkm_lkfort_a01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Ramp 1, Mountain to Rocky hill, 2x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "rkm_mhramp_a01"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Grass"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "grass"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hill, grass"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "low_hill"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Hill, rock"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "high_hill"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Lake/River"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "lake"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Castle high"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "keep"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Castle low"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "castlewall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Mountain stream"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "stream"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "- Edge fixer"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "edge_fixer"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Small stone wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "stonewall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "TNO, Castle wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "smallwall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "raiselower"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63292
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}
