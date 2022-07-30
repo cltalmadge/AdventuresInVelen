@@ -25,6 +25,14 @@ docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter N
 docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_reskins
 docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_skies
 docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles1
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles2
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles3
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles4
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles5
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles6
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles7
+docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_tiles8
 docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/hak/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes velen_vfx
 docker run --rm -t -v $(pwd):/nasher -v $(pwd):"/root/.local/share/Neverwinter Nights/tlk/" urothis/nwnee-community-images:nasher-8193.34 pack --clean --verbose --yes tlk
 mv ./*.hak velen_content

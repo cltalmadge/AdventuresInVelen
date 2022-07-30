@@ -182,6 +182,110 @@ pipeline {
                 }
             }
         }
+        stage('Pack Velen Tiles') {
+            when {
+                changeset "content/src/hak/velen_tiles1/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen cont", footer: "Velen Tiles", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles1"
+                }
+            }
+        }
+        stage('Pack Velen Tiles2') {
+            when {
+                changeset "content/src/hak/velen_tiles2/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen cont", footer: "Velen Tiles", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles2"
+                }
+            }
+        }
+        stage('Pack Velen Tiles3') {
+            when {
+                changeset "content/src/hak/velen_tiles3/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen cont", footer: "Velen Tiles", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles3"
+                }
+            }
+        }
+        stage('Pack Velen Tiles4') {
+            when {
+                changeset "content/src/hak/velen_tiles4/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen cont", footer: "Velen Tiles", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles4"
+                }
+            }
+        }
+        stage('Pack Velen Tiles5') {
+            when {
+                changeset "content/src/hak/velen_tiles5/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen cont", footer: "Velen Tiles", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles5"
+                }
+            }
+        }
+        stage('Pack Velen Tiles6') {
+            when {
+                changeset "content/src/hak/velen_tiles6/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen cont", footer: "Velen Tiles", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles6"
+                }
+            }
+        }
+        stage('Pack Velen Tiles7') {
+            when {
+                changeset "content/src/hak/velen_tiles7/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen cont", footer: "Velen Tiles", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles7"
+                }
+            }
+        }
+        stage('Pack Velen Tiles8') {
+            when {
+                changeset "content/src/hak/velen_tiles8/**/**"
+            }
+            steps {
+                discordSend description: "Packing Velen cont", footer: "Velen Tiles", link: env.BUILD_URL, title: "Packaging Hak", webhookURL: params.WEBHOOK
+                 script {
+                    sh "chmod +x content/pack.sh"
+                    sh "dos2unix content/pack.sh"
+                    sh "./content/pack.sh hak velen_tiles8"
+                }
+            }
+        }
         stage('Pack Velen VFX') {
             when {
                 changeset "content/src/hak/velen_vfx/**/**"
