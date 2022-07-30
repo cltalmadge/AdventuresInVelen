@@ -1,0 +1,264 @@
+# Exported from 3ds max by MDL Plugin Suite 1.1b3
+# http://rockbottom.vtex.net
+#MAXMODEL ASCII
+# model: ori02_d01_02
+filedependancy Noble Terrain2.max
+newmodel ori02_d01_02
+setsupermodel ori02_d01_02 NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom ori02_d01_02
+node dummy ori02_d01_02
+  parent NULL
+endnode
+node light ori02_d02_01ml1
+  parent ori02_d01_02
+  position 2.15548 -2.10226 5.17783
+  orientation 0 0 0 0
+  wirecolor 0.898438 0.898438 0.898438
+    radius 5
+    multiplier 1
+    color 0.00392157 0.00392157 0.00392157
+    ambientOnly 0
+    nDynamicType 0
+    affectDynamic 1
+    shadow 0
+    lightpriority 5
+    lensflares 0
+    fadingLight 1
+endnode
+node light ori02_d02_01ml2
+  parent ori02_d01_02
+  position -2.54129 2.5156 7.42078
+  orientation 0 0 0 0
+  wirecolor 0.898438 0.898438 0.898438
+    radius 14
+    multiplier 1
+    color 0 0 0
+    ambientOnly 0
+    nDynamicType 0
+    affectDynamic 1
+    shadow 0
+    lightpriority 5
+    lensflares 0
+    fadingLight 1
+endnode
+node trimesh Object25
+  parent ori02_d01_02
+  position 0 -1.07775 3.59814
+  orientation 0 0 0 0
+  wirecolor 0.882813 0.882813 0.882813
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tcn01_black
+  verts 8
+    -5 -3.91225 0.401857
+    5 -3.91225 0.401857
+    -2 1.08775 0.401857
+    2 1.08775 0.401857
+    -5 6.08775 0.401857
+    -2 6.08775 0.401857
+    2 6.08775 0.401857
+    5 6.08775 0.401857
+  faces 6
+    2 0 3  1  2 0 3  0
+    3 0 1  1  3 0 1  0
+    4 0 2  1  4 0 2  0
+    2 5 4  1  2 5 4  0
+    6 3 7  1  6 3 7  0
+    1 7 3  1  1 7 3  0
+  tverts 8
+    0.000499517 0.000499755 0.5
+    0.9995 0.000499517 0.5
+    0.3002 0.5 0.5
+    0.6998 0.5 0.5
+    0.000499755 0.999501 0.5
+    0.3002 0.9995 0.5
+    0.6998 0.9995 0.5
+    0.999501 0.9995 0.5
+endnode
+node trimesh Object26
+  parent ori02_d01_02
+  position 0 -0.270893 2
+  orientation 0 0 0 0
+  wirecolor 0.882813 0.882813 0.882813
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tcn01_plstr00
+  verts 4
+    -2 0.280895 -2
+    2 0.280895 -2
+    -2 0.280895 2
+    2 0.280895 2
+  faces 2
+    1 0 2  0  4 0 5  0
+    2 3 1  0  2 3 1  0
+  tverts 6
+    1.3 -0.3 0.5
+    -0.3 -0.3 0.5
+    1.3 1.3 0.5
+    -0.3 1.3 0.5
+    -0.3 -0.3 0.5
+    1.3 1.3 0.5
+endnode
+node trimesh Object27
+  parent ori02_d01_02
+  position 2.16819 2.51 2
+  orientation 0 0 0 0
+  wirecolor 0.882813 0.882813 0.882813
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tcn01_plstr00
+  verts 4
+    -0.16819 -2.5 -2
+    -0.16819 2.5 -2
+    -0.16819 -2.5 2
+    -0.16819 2.5 2
+  faces 2
+    1 0 2  0  4 0 5  0
+    2 3 1  0  2 3 1  0
+  tverts 6
+    1.5 -0.3 0.5
+    -0.5 -0.3 0.5
+    1.5 1.3 0.5
+    -0.5 1.3 0.5
+    -0.5 -0.3 0.5
+    1.5 1.3 0.5
+endnode
+node trimesh Object28
+  parent ori02_d01_02
+  position -2.1797 2.51 2
+  orientation 0 0 0 0
+  wirecolor 0.882813 0.882813 0.882813
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tcn01_plstr00
+  verts 4
+    0.179702 -2.5 -2
+    0.179702 2.5 -2
+    0.179702 -2.5 2
+    0.179702 2.5 2
+  faces 2
+    0 1 2  0  0 4 5  0
+    3 2 1  0  3 2 1  0
+  tverts 6
+    -0.5 -0.3 0.5
+    1.5 -0.3 0.5
+    -0.5 1.3 0.5
+    1.5 1.3 0.5
+    1.5 -0.3 0.5
+    -0.5 1.3 0.5
+endnode
+node trimesh Plane321
+  parent ori02_d01_02
+  position 0 0 -0.27702
+  orientation 0 0 0 0
+  wirecolor 0.898438 0.898438 0.898438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tin01_plank
+  render 1
+  Shadow 1
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 1
+  verts 25
+    -5 -5 0.27702
+    -2.5 -5 0.27702
+    0 -5 0.27702
+    2.5 -5 0.27702
+    5 -5 0.27702
+    -5 -2.5 0.27702
+    -2.5 -2.5 0.27702
+    0 -2.5 0.27702
+    2.5 -2.5 0.27702
+    5 -2.5 0.27702
+    -5 0 0.27702
+    -2.5 0 0.27702
+    0 0 0.27702
+    2.5 0 0.27702
+    5 0 0.27702
+    -5 2.5 0.27702
+    -2.5 2.5 0.27702
+    0 2.5 0.27702
+    2.5 2.5 0.27702
+    5 2.5 0.27702
+    -5 5 0.27702
+    -2.5 5 0.27702
+    0 5 0.27702
+    2.5 5 0.27702
+    5 5 0.27702
+  faces 32
+    5 0 6  1  5 0 6  0
+    1 6 0  1  1 6 0  0
+    6 1 7  1  6 1 7  0
+    2 7 1  1  2 7 1  0
+    7 2 8  1  7 2 8  0
+    3 8 2  1  3 8 2  0
+    8 3 9  1  8 3 9  0
+    4 9 3  1  4 9 3  0
+    10 5 11  1  10 5 11  0
+    6 11 5  1  6 11 5  0
+    11 6 12  1  11 6 12  0
+    7 12 6  1  7 12 6  0
+    12 7 13  1  12 7 13  0
+    8 13 7  1  8 13 7  0
+    13 8 14  1  13 8 14  0
+    9 14 8  1  9 14 8  0
+    15 10 16  1  15 10 16  0
+    11 16 10  1  11 16 10  0
+    16 11 17  1  16 11 17  0
+    12 17 11  1  12 17 11  0
+    17 12 18  1  17 12 18  0
+    13 18 12  1  13 18 12  0
+    18 13 19  1  18 13 19  0
+    14 19 13  1  14 19 13  0
+    20 15 21  1  20 15 21  0
+    16 21 15  1  16 21 15  0
+    21 16 22  1  21 16 22  0
+    17 22 16  1  17 22 16  0
+    22 17 23  1  22 17 23  0
+    18 23 17  1  18 23 17  0
+    23 18 24  1  23 18 24  0
+    19 24 18  1  19 24 18  0
+  tverts 25
+    0 -1 0.5
+    0.5 -1 0.5
+    1 -1 0.5
+    1.5 -1 0.5
+    2 -1 0.5
+    0 -0.5 0.5
+    0.5 -0.5 0.5
+    1 -0.5 0.5
+    1.5 -0.5 0.5
+    2 -0.5 0.5
+    0 0 0.5
+    0.5 0 0.5
+    1 0 0.5
+    1.5 0 0.5
+    2 0 0.5
+    0 0.5 0.5
+    0.5 0.5 0.5
+    1 0.5 0.5
+    1.5 0.5 0.5
+    2 0.5 0.5
+    0 1 0.5
+    0.5 1 0.5
+    1 1 0.5
+    1.5 1 0.5
+    2 1 0.5
+endnode
+endmodelgeom ori02_d01_02
+donemodel ori02_d01_02

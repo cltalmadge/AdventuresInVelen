@@ -1,0 +1,149 @@
+# Exported from NWmax 0.6 at 4/18/2004 4:35:30 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: BOG_UDoor_01
+filedependancy Unknown
+newmodel BOG_UDoor_01
+setsupermodel BOG_UDoor_01 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom BOG_UDoor_01
+node dummy BOG_UDoor_01
+  parent NULL
+endnode
+node dummy BOG_UDoor_01grnd
+  parent BOG_UDoor_01
+  position 0.0 -0.01881 0.0615002
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.552941 0.027451 0.227451 
+endnode
+node dummy BOG_UDoor_01hhit
+  parent BOG_UDoor_01
+  position 0.0 -0.01881 2.30191
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.839216 
+endnode
+node dummy BOG_UDoor_01impc
+  parent BOG_UDoor_01
+  position 0.0 -0.01881 1.14654
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.839216 
+endnode
+node dummy BOG_UDoor_01head
+  parent BOG_UDoor_01
+  position 0.0 -0.01881 2.5615
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node trimesh sam
+  parent BOG_UDoor_01
+  position -0.00855469 0.531143 2.676
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.0 0.0 0.0 
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 0
+  center 0.855 -54.5003 -132.8 
+  ambient 0.2 0.2 0.2 
+  diffuse 0.8 0.8 0.8 
+  specular 0.0 0.0 0.0 
+  shininess 3.0
+  selfillumcolor 0.0 0.0 0.0 
+  bitmap sam
+  verts 8
+    1.20855 -0.56006 0.0
+    -1.19145 -0.56006 0.0
+    1.20855 -0.56006 -2.656
+    -1.19145 -0.56006 -2.656
+    -1.19145 -0.529946 0.0
+    1.20855 -0.529946 0.0
+    1.20855 -0.529946 -2.656
+    -1.19145 -0.529946 -2.656
+  faces 4
+    0 1 2  1  0 0 0  5
+    3 2 1  1  0 0 0  5
+    4 5 6  1  0 0 0  5
+    6 7 4  1  0 0 0  5
+endnode
+endmodelgeom BOG_UDoor_01
+#NWmax ANIM ASCII
+newanim trans BOG_UDoor_01
+  length 0.0333333
+  transtime 0.25
+  animroot BOG_UDoor_01
+    node dummy BOG_UDoor_01
+        parent NULL
+    endnode
+    node dummy BOG_UDoor_01grnd
+        parent BOG_UDoor_01
+    endnode
+    node dummy BOG_UDoor_01hhit
+        parent BOG_UDoor_01
+    endnode
+    node dummy BOG_UDoor_01impc
+        parent BOG_UDoor_01
+    endnode
+    node dummy BOG_UDoor_01head
+        parent BOG_UDoor_01
+    endnode
+    node trimesh sam
+        parent BOG_UDoor_01
+    endnode
+    node dummy BOG_UDoor_01_DWK
+        parent BOG_UDoor_01
+    endnode
+    node dummy 01_DWK_dp_closed_02
+        parent BOG_UDoor_01_DWK
+    endnode
+    node dummy 01_DWK_dp_closed_01
+        parent BOG_UDoor_01_DWK
+    endnode
+    node dwk 09_DWK_wg_closed
+        parent BOG_UDoor_01_DWK
+    endnode
+doneanim trans BOG_UDoor_01
+#NWmax ANIM ASCII
+newanim default BOG_UDoor_01
+  length 0.0333333
+  transtime 0.25
+  animroot BOG_UDoor_01
+    node dummy BOG_UDoor_01
+        parent NULL
+    endnode
+    node dummy BOG_UDoor_01grnd
+        parent BOG_UDoor_01
+    endnode
+    node dummy BOG_UDoor_01hhit
+        parent BOG_UDoor_01
+    endnode
+    node dummy BOG_UDoor_01impc
+        parent BOG_UDoor_01
+    endnode
+    node dummy BOG_UDoor_01head
+        parent BOG_UDoor_01
+    endnode
+    node trimesh sam
+        parent BOG_UDoor_01
+    endnode
+    node dummy BOG_UDoor_01_DWK
+        parent BOG_UDoor_01
+    endnode
+    node dummy 01_DWK_dp_closed_02
+        parent BOG_UDoor_01_DWK
+    endnode
+    node dummy 01_DWK_dp_closed_01
+        parent BOG_UDoor_01_DWK
+    endnode
+    node dwk 09_DWK_wg_closed
+        parent BOG_UDoor_01_DWK
+    endnode
+doneanim default BOG_UDoor_01
+donemodel BOG_UDoor_01

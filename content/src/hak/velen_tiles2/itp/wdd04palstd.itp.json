@@ -1,0 +1,2575 @@
+{
+  "__data_type": "ITP ",
+  "MAIN": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 0
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Pillar [A] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s10_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Pillar [B] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Grate-small 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s10_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Pillar [C] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Grate-large 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s10_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Pillar [B] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Pit 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Stairway Down 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Stairway Down 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Pit 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Grate-small 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Grate-large 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Door Transition 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Fireplace 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_13"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Fireplace 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_14"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Corner-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Wall-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_16"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Wall-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_17"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-[low] Corner-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_18"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Portal-Blue 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_20"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Portal-Red 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Portal-Green 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_22"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Portal-Green 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_23"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Portal-Red 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_24"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Portal-Blue 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_25"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Corner-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_30"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Corner-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Wall-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_32"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Wall-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_33"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Stairs-Up 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_34"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Chandelier 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_35"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Chandelier 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_36"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Double-Doors 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_37"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Cell Corner 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_38"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Cell Wall 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_39"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] TangledPillar 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_40"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] DoubleDoors_Trans 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_s01_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Pillar [A] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s10_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Pillar [B] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Grate-small 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s10_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Pillar [C] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Grate-large 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s10_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Pillar [B] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Pit 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Stairway Down 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Stairway Down 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Pit 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Grate-small 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Grate-large 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Door Transition 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Fireplace 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_13"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Fireplace 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_14"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Corner-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Wall-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_16"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Wall-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_17"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Corner-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_18"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Portal-Blue 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_20"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Portal-Red 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Portal-Green 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_22"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Portal-Green 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_23"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Portal-Red 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_24"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Portal-Blue 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_25"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Corner-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_30"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Corner-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Wall-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_32"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Wall-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_33"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Stairs-Up 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_34"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Chandelier 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_35"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Chandelier 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_36"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Double-Doors 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_37"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Cell Corner 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_38"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Cell Wall 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_39"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] TangledPillar 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_40"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] DoubleDoors_Trans 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_s01_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-Stairs-Down [wall]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_v01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-Stairs-Up [wall]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_v01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-Stairs-Up [corner]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_v01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-Stairs-Down [R] [wall]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_v01_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Pillar [A] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s10_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Pillar [B] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Grate-small 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s10_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Pillar [C] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Grate-large 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s10_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Pillar [B] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Pit 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Stairway Down 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Stairway Down 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Pit 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Grate-small 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Grate-large 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Door Transition 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Fireplace 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_13"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-[low] Fireplace 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_14"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Corner-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Wall-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_16"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Wall-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_17"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Corner-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_18"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Portal-Blue 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_20"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Portal-Red 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Portal-Green 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_22"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Portal-Green 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_23"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Portal-Red 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_24"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Portal-Blue 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_25"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Corner-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_30"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Corner-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Wall-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_32"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Wall-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_33"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Stairs-Up 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_34"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Chandelier 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_35"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Chandelier 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_36"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Double-Doors 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_37"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Cell Corner 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_38"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Cell Wall 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_39"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] TangledPillar 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_40"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] DoubleDoors_Trans 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_s01_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Pillar [A] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s10_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Pillar [B] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Grate-small 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s10_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Pillar [C] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Grate-large 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s10_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Pillar [B] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Pit 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Stairway Down 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Stairway Down 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Pit 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Grate-small 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Grate-large 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Door Transition 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Fireplace 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_13"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Fireplace 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_14"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Corner-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Wall-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_16"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Wall-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_17"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Corner-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_18"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Portal-Blue 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_20"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Portal-Red 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Portal-Green 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_22"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Portal-Green 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_23"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Portal-Red 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_24"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Portal-Blue 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_25"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Corner-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_30"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Corner-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Wall-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_32"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Wall-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_33"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Stairs-Up 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_34"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Chandelier 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_35"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Chandelier 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_36"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Double-Doors 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_37"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Cell Corner 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_38"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Cell Wall 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_39"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] TangledPillar 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_40"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] DoubleDoors_Trans 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_s01_41"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Lava-Leak [A] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Lava-Leak [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Pillar [A] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s10_02"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Pillar [B] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Grate-small 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s10_04"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Pillar [C] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s05_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Grate-large 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s10_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Pillar [B] 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Pit 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_05"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Stairway Down 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Stairway Down 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_08"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Pit 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_09"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Grate-small 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_10"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Grate-large 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_11"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Door Transition 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_12"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Fireplace 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_13"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Fireplace 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_14"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Corner-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_15"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Wall-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_16"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Wall-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_17"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Corner-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_18"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Portal-Blue 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_20"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Portal-Red 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_21"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Portal-Green 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_22"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Portal-Green 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_23"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Portal-Red 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_24"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Portal-Blue 1x1 "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_25"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Corner-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_30"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Corner-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_31"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Wall-Pillar [C] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_32"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Wall-Pillar [B] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_33"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Stairs-Up 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_34"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Chandelier 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_35"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Chandelier 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_36"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Lava-Bridge [A] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s10_06"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Lava-Bridge [A] 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s10_07"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Double-Doors 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_37"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Cell Corner 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_38"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Cell Wall 1x1"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_s01_39"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63261
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 1
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-high] Arena 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_a10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Tavern-low] Arena 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd04_a10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-high] Arena 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_a10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Haunted-low] Arena 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd05_a10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-high] Arena 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_a10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Inn-low] Arena 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd03_a10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-high] Arena 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_a10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Stone-low] Arena 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd06_a10_03"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-high] Arena 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_a10_01"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon-low] Arena 1x2"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wdd01_a10_03"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 63262
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ID": {
+          "type": "byte",
+          "value": 2
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Wall"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "wall"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tavern-Floor [High]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "floorh"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Tavern-Floor [Low]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "floorl"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Haunted-Floor [High]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "hfloorh"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Haunted-Floor [Low]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "hfloorl"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Haunted-Living Room"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "hlivingroom"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Cellar"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "cellar"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Inn-Floor [High]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ifloorh"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Inn-Floor [Low]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "ifloorl"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stone-Floor [High]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "dfloorh"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Stone-Floor [Low]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "dfloorl"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon] Floor [High]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "mfloorh"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon] Floor [Low]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "mfloorl"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon] Deep Pit"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "deeppit"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon] Lava"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "lava"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon] lava-stream"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "lavastrm"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "eraser"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 63291
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Door"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "door"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Corridor [Main]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "corridor"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Corridor [Haunted] "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "corridor2"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Corridor [Stone] "
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "corridor3"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon] Goblin Tunnels"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "tunnels"
+              }
+            },
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "[Dungeon] Bridge [Crosser]"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "bridge"
+              }
+            }
+          ]
+        },
+        "STRREF": {
+          "type": "dword",
+          "value": 8282
+        }
+      }
+    ]
+  }
+}
