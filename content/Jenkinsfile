@@ -323,7 +323,7 @@ pipeline {
                  script {
                     sh "chmod +x content/bundle-all.sh"
                     sh "dos2unix content/bundle-all.sh"
-                    sh "./content/bundle-all.sh"
+                    sh "./content/bundle-all.sh " + INSTALL_LOCATION
                 }
             }
         }
