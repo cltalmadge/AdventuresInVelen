@@ -11,7 +11,7 @@
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "area"
+          "value": "area001"
         }
       }
     ]
@@ -42,7 +42,7 @@
   },
   "Mod_Entry_Area": {
     "type": "resref",
-    "value": "area"
+    "value": "area001"
   },
   "Mod_Entry_Dir_X": {
     "type": "float",
@@ -54,15 +54,15 @@
   },
   "Mod_Entry_X": {
     "type": "float",
-    "value": 40.0
+    "value": 37.0
   },
   "Mod_Entry_Y": {
     "type": "float",
-    "value": 40.0
+    "value": 48.0
   },
   "Mod_Entry_Z": {
     "type": "float",
-    "value": 0.0
+    "value": 5.0
   },
   "Mod_Expan_List": {
     "type": "list",
@@ -79,70 +79,63 @@
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_top"
+          "value": "velen_2das"
         }
       },
       {
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_tiles8"
+          "value": "velen_armors"
         }
       },
       {
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_tiles7"
+          "value": "velen_core0"
         }
       },
       {
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_tiles6"
+          "value": "velen_core1"
         }
       },
       {
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_tiles5"
+          "value": "velen_core2"
         }
       },
       {
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_tiles4"
+          "value": "velen_reskins"
         }
       },
       {
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_tiles3"
+          "value": "velen_phenos"
         }
       },
       {
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_tiles2"
+          "value": "velen_skies"
         }
       },
       {
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_tiles1"
-        }
-      },
-      {
-        "__struct_id": 8,
-        "Mod_Hak": {
-          "type": "cexostring",
-          "value": "velen_robe"
+          "value": "velen_tiles"
         }
       },
       {
@@ -156,21 +149,28 @@
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_cont"
+          "value": "velen_doors"
         }
       },
       {
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_ccoh"
+          "value": "velen_portraits"
         }
       },
       {
         "__struct_id": 8,
         "Mod_Hak": {
           "type": "cexostring",
-          "value": "velen_anim"
+          "value": "velen_facelift"
+        }
+      },
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "velen_vfx"
         }
       }
     ]
@@ -190,7 +190,7 @@
   "Mod_Name": {
     "type": "cexolocstring",
     "value": {
-      "0": "Adventures in Velen"
+      "0": "CapeVelen"
     }
   },
   "Mod_OnAcquirItem": {
