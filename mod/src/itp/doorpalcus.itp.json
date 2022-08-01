@@ -76,6 +76,99 @@
           "type": "byte",
           "value": 5
         },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "hut_door_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5349
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "nw_door_ct_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5349
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "nw_door_ct_02"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5349
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "nw_door_ct_03"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5349
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "nw_door_ct_04"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5349
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "nw_door_ct_05"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5349
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tn_drawbridge"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5349
+              }
+            },
+            {
+              "__struct_id": 0,
+              "RESREF": {
+                "type": "resref",
+                "value": "tn_sdoor_01"
+              },
+              "STRREF": {
+                "type": "dword",
+                "value": 5349
+              }
+            }
+          ]
+        },
         "STRREF": {
           "type": "dword",
           "value": 6734
@@ -135,6 +228,88 @@
               "ID": {
                 "type": "byte",
                 "value": 8
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": ""
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tn_gdoor_mt_11"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tn_gdoor_mt_12"
+                    },
+                    "STRREF": {
+                      "type": "dword",
+                      "value": 5349
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tn_gdoor_st_09"
+                    },
+                    "STRREF": {
+                      "type": "dword",
+                      "value": 5349
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tn_gdoor_st_10"
+                    },
+                    "STRREF": {
+                      "type": "dword",
+                      "value": 5349
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tn_gdoor_wd_01"
+                    },
+                    "STRREF": {
+                      "type": "dword",
+                      "value": 5349
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tn_gdoor_wd_02"
+                    },
+                    "STRREF": {
+                      "type": "dword",
+                      "value": 5349
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "tn_gdoor_wd_03"
+                    },
+                    "STRREF": {
+                      "type": "dword",
+                      "value": 5349
+                    }
+                  }
+                ]
               },
               "STRREF": {
                 "type": "dword",
