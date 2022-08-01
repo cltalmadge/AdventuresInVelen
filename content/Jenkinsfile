@@ -17,7 +17,7 @@ pipeline {
             }
             steps{
                 echo "Nothing to do. Exiting."
-                return
+                exit(0)
             }
         }
         stage('Before all'){
