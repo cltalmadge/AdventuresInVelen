@@ -203,6 +203,22 @@
                       "type": "byte",
                       "value": 23
                     },
+                    "LIST": {
+                      "type": "list",
+                      "value": [
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Witcher: Corpse, Child"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "blueprint006"
+                          }
+                        }
+                      ]
+                    },
                     "NAME": {
                       "type": "cexostring",
                       "value": "Corpses - NPC Human"
@@ -359,6 +375,22 @@
                       "type": "byte",
                       "value": 132
                     },
+                    "LIST": {
+                      "type": "list",
+                      "value": [
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Fence Stone 1"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "blueprint009"
+                          }
+                        }
+                      ]
+                    },
                     "STRREF": {
                       "type": "dword",
                       "value": 16810770
@@ -380,6 +412,22 @@
                     "ID": {
                       "type": "byte",
                       "value": 125
+                    },
+                    "LIST": {
+                      "type": "list",
+                      "value": [
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "House, Dock 2"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "blueprint008"
+                          }
+                        }
+                      ]
                     },
                     "STRREF": {
                       "type": "dword",
@@ -955,6 +1003,66 @@
                 "type": "byte",
                 "value": 83
               },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Acid Bath"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "blueprint001"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Altar"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "blueprint002"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Bones and Skulls"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "blueprint003"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Brain in a jar"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "blueprint004"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Witcher: Feces"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "blueprint007"
+                    }
+                  }
+                ]
+              },
               "STRREF": {
                 "type": "dword",
                 "value": 16810789
@@ -998,6 +1106,22 @@
               "ID": {
                 "type": "byte",
                 "value": 47
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Witcher: Coffin 2"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "blueprint005"
+                    }
+                  }
+                ]
               },
               "STRREF": {
                 "type": "dword",
@@ -1748,6 +1872,44 @@
               "ID": {
                 "type": "byte",
                 "value": 5
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Arcane Circle 01, Blue"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "vfx"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Fireflies"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "vfx001"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Light - White"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "vfx002"
+                    }
+                  }
+                ]
               },
               "STRREF": {
                 "type": "dword",

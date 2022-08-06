@@ -11,7 +11,14 @@
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "area001"
+          "value": "welcometocapevel"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "area"
         }
       }
     ]
@@ -42,27 +49,27 @@
   },
   "Mod_Entry_Area": {
     "type": "resref",
-    "value": "area001"
+    "value": "welcometocapevel"
   },
   "Mod_Entry_Dir_X": {
     "type": "float",
-    "value": 0.0
+    "value": -1.0
   },
   "Mod_Entry_Dir_Y": {
     "type": "float",
-    "value": 1.0
+    "value": 0.0
   },
   "Mod_Entry_X": {
     "type": "float",
-    "value": 37.0
+    "value": 56.7735
   },
   "Mod_Entry_Y": {
     "type": "float",
-    "value": 48.0
+    "value": 5.1118
   },
   "Mod_Entry_Z": {
     "type": "float",
-    "value": 5.0
+    "value": 0.01
   },
   "Mod_Expan_List": {
     "type": "list",
